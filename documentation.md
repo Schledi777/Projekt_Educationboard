@@ -4,6 +4,7 @@
 
 ### 1. Pico mit Computer Verbinden
 
+
 Source:(https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/microcontrollers/micropython/drag-and-drop.adoc)
 
 Mit einem DATENÜBERTRAGUNGSFÄHIGEN Micro-USB Kabel, während man den '**BOOTSEL button**' gedrückt hält, in einen USB-OUTLET seiner Wahl des PC's stöpseln.
@@ -11,6 +12,7 @@ Der '**BOOTSEL button**' kann nach dem Verbinden losgelassen werden. Nun müsste
 
 
 ### 2. Istallation von Mircro Python
+
 
 Nun Link von Source folgen auf den **Raspberry Pi Pico** link klicken, wie in der folgenden Abildung.
 
@@ -20,7 +22,9 @@ Nachdem man auf den Link geklickt hat müsste stand 03.03.2024 eine Datei mit de
 Nun die 'RPI_PICO-20240222-v1.22.2.uf2' - Datei in das Laufwerk '**RPI-RP2**' per drag and dorp reinziehen.
 Wenn die Istallation erfolgreich war sollte nun das Laufwerk '**RPI-RP2**' nicht mehr zusehen sein.
 
+
 ### 3. Istallation IDE und Verbinden des Pi Pico's mit der IDE
+
 
 #### 1. Thonny:
 
