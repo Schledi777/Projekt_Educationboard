@@ -34,23 +34,23 @@ Verbinden der IDE mit Pi Pico:
 
 4. Wie im folgenden Bild die Art des Interpreters den '**MicroPython (Raspberry Pi Pico)**' auswählen und bei dem Port euren 'COM' - Anschluss. In meinem Fall ist es der '**COM3**' Anschluss über den ich die Codes und Biblioteken auf den Pico laden werde.
 
-![image](https://github.com/Schledi777/ebunoard/assets/130638123/4fe262bd-e212-4282-a591-b8ef2043bb0e)
+   ![image](https://github.com/Schledi777/ebunoard/assets/130638123/4fe262bd-e212-4282-a591-b8ef2043bb0e)
 
 5. Auf das Stopschild klicken um zu Connecten bzw. einen Softreboot starten oder das laufende Programm zu stoppen.
 
-![image](https://github.com/Schledi777/ebunoard/assets/130638123/8387de42-e4bb-436a-9c90-b63f8a294ce4)
+   ![image](https://github.com/Schledi777/ebunoard/assets/130638123/8387de42-e4bb-436a-9c90-b63f8a294ce4)
 
 6. Auf den grünen Run button klicken um das Pogramm über den Pi zu starten, wenn es einen Fehler gibt kommt eine Meldung in der Console.
 
-![image](https://github.com/Schledi777/ebunoard/assets/130638123/e59b8616-fa2c-4c8f-b61b-d08a6cb48c1d)
+   ![image](https://github.com/Schledi777/ebunoard/assets/130638123/e59b8616-fa2c-4c8f-b61b-d08a6cb48c1d)
 
 7. Um Programmen auf den Pi zu Speichern aktuelles Programm offen haben, dann unter Registerkarte '**Datei**' und dort dann '**Speichern unter...**' auswählen. Dann öffnet sich ein weiteres Menu, in welchen man zwischen Computer und Raspberry entscheiden kann. Dort auf '*Raspberry PI Pico*' klicken und es öffnet sich das Laufwerk des Pico's.
 
-![image](https://github.com/Schledi777/ebunoard/assets/130638123/c90597f6-1f10-41f3-83e9-54ec1b6c77ba)
-![image](https://github.com/Schledi777/ebunoard/assets/130638123/f4fce567-db69-4507-a5c5-a597cba172cb)
+   ![image](https://github.com/Schledi777/ebunoard/assets/130638123/c90597f6-1f10-41f3-83e9-54ec1b6c77ba)
+   ![image](https://github.com/Schledi777/ebunoard/assets/130638123/f4fce567-db69-4507-a5c5-a597cba172cb)
 
 9. Programm oder Bibliotek mit '.py' benennen und mit dem auswählen von 'OK' wird die Datei gespeichert
 
-![image](https://github.com/Schledi777/ebunoard/assets/130638123/3cc35c2d-7460-4d19-adad-caaffc2c970e)
+   ![image](https://github.com/Schledi777/ebunoard/assets/130638123/3cc35c2d-7460-4d19-adad-caaffc2c970e)
 
 
