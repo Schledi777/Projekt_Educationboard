@@ -12,6 +12,7 @@ Der '**BOOTSEL button**' kann nach dem Verbinden losgelassen werden. Nun müsste
 
 
 ### 2. Istallation von Mircro Python
+deeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeezzzzzzzzzzzzzzzzzz nuuuuuuuuuuuuuuutssssssssss
 
 
 Nun Link von Source folgen auf den **Raspberry Pi Pico** link klicken, wie in der folgenden Abildung.
