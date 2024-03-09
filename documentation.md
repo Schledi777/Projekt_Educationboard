@@ -1,4 +1,4 @@
-# **Documentation zum Projekt Educationboard zur Lehrveranstaltung Embedded Systems**
+# **Dokumentation zum Projekt Educationboard zur Lehrveranstaltung Embedded Systems**
 
 ## **1.Instalation Micropython auf Raspberry Pi Pico und Verbinen in der IDE**
 
