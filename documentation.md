@@ -53,8 +53,16 @@ Verbinden der IDE mit Pi Pico:
    ![image](https://github.com/Schledi777/ebunoard/assets/130638123/c90597f6-1f10-41f3-83e9-54ec1b6c77ba)
    ![image](https://github.com/Schledi777/ebunoard/assets/130638123/f4fce567-db69-4507-a5c5-a597cba172cb)
 
+
+
+
+
 9. Programm oder Bibliotek mit '.py' benennen und mit dem auswählen von 'OK' wird die Datei gespeichert
 
    ![image](https://github.com/Schledi777/ebunoard/assets/130638123/3cc35c2d-7460-4d19-adad-caaffc2c970e)
 
 
+## **2.Monatge**
+
+
+## **3.Programme Nutzen**
