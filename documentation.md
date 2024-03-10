@@ -62,7 +62,7 @@ Verbinden der IDE mit Pi Pico:
    ![image](https://github.com/Schledi777/ebunoard/assets/130638123/3cc35c2d-7460-4d19-adad-caaffc2c970e)
 
 
-## **2.Monatge**
+## **2.Montage**
 
 
 ## **3.Programme Nutzen**
