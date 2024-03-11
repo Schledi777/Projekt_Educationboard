@@ -82,16 +82,20 @@ Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und dan
 
 Da wir nun keine gefräßte Platine mehr haben müssen alle Kabel per Hand verlegt verlegt werden. Nun werden nachdem Anlöten der "GrundTeile", die GrundTeile nach folgender Tabelle (Tab1.:Bauteile_&_Pins) Kabel passend zu den genutzen Pins gelegt.
 
-[BILD]
+   [BILD]
 
 #### 3. Schritt Motage: Kabel anlöten
 
 Hierbei werden die Kabel und die Pinenden der Sensoren und Akturoren mit den Pins des Raspberry Pi Pico verlötet, dabei wurden Brücken gelötet um Knotenpunkte zu erzeugen.
 
+   [BILD]
+
 #### 4. Schritt Motage: Bestückung
 
 Nun werden die zwei Lochplatten am Gehäuse festgeschraubt, die Sensoren und Aktuatoren die eine Buchsenleiste haben in ihre zugehöhrige Buchse gesteckt.
 
-[BILD]
+   [BILD]
 
 ## **3.Programme Nutzen**
+
+Wir haben ein RotationsMenu-Programm geschriben, mit dieses wird mit der IDE ihres vertrauens gestartet dann kann man auf dem EducationBoard die Programme mit dem Drehpotentiometer ausgewählt und abgespielt werden. Um ein Anderes Programm zu starten wird das MenuProgramm einfach rebootet.
