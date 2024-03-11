@@ -70,7 +70,7 @@ Verbinden der IDE mit Pi Pico:
 Wegen der im Beleg erläuterten Probleme mit der Platine, haben wir uns entschieden auf Lochrasterplatinen zu setzen. Hierbei haben wir dann ein neues Gehäuse entworfen und zwei einseitige Lochrasterplatinen mit den Maßen 160mm Länge und 100mm Breite, mit einem Rastermaß von 2,54 mm.
 Dabei werden diese zwei Lochrasterplatinen an der 160mm LängstSeite zusammengefügt, weil dies die stabielste, flächentechnisch minimalste und ästetischste Anordnung der Platinen ist ohne nochmal diese zu bearbeiten.
 
-#### 1.Schritt Montage: Grundbauteile anlöten 
+#### 1. Schritt Montage: Grundbauteile anlöten 
 
 Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und danach alle anderen Komponeten die keine Buchsenleite benötigen, wie der Thumpstick, der Drechpotientiometer, die 8x8 LED Matrix, der 330Ohm Wiederstand und die RGBKathodenLED angelötet.
    
