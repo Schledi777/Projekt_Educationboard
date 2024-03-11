@@ -74,7 +74,8 @@ Dabei werden diese zwei Lochrasterplatinen an der 160mm LängstSeite zusammengef
 
 Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und danach alle anderen Komponeten die keine Buchsenleite benötigen, wie der Thumpstick, der Drechpotientiometer, die 8x8 LED Matrix, der 330Ohm Wiederstand und die RGBKathodenLED angelötet.
 
-![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/c158fb3c-ae67-48ae-a0ab-de44012b426d)
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/da8bf65e-5d1f-4b9c-8c78-c89950db6bec)
+
 
 
 #### 2. Schritt Motage: Kabelverlegen 
