@@ -62,7 +62,35 @@ Verbinden der IDE mit Pi Pico:
    ![image](https://github.com/Schledi777/ebunoard/assets/130638123/3cc35c2d-7460-4d19-adad-caaffc2c970e)
 
 
+
+
+
 ## **2.Montage**
 
+Wegen der im Beleg erläuterten Probleme mit der Platine, haben wir uns entschieden auf Lochrasterplatinen zu setzen. Hierbei haben wir dann ein neues Gehäuse entworfen und zwei einseitige Lochrasterplatinen mit den Maßen 160mm Länge und 100mm Breite, mit einem Rastermaß von 2,54 mm.
+Dabei werden diese zwei Lochrasterplatinen an der 160mm LängstSeite zusammengefügt, weil dies die stabielste, flächentechnisch minimalste und ästetischste Anordnung der Platinen ist ohne nochmal diese zu bearbeiten.
+
+#### 1.Schritt Montage: Grundbauteile anlöten 
+
+Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und danach alle anderen Komponeten die keine Buchsenleite benötigen, wie der Thumpstick, der Drechpotientiometer, die 8x8 LED Matrix, der 330Ohm Wiederstand und die RGBKathodenLED angelötet.
+
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/c158fb3c-ae67-48ae-a0ab-de44012b426d)
+
+
+#### 2. Schritt Motage: Kabelverlegen 
+
+Da wir nun keine gefräßte Platine mehr haben müssen alle Kabel per Hand verlegt verlegt werden. Nun werden nachdem Anlöten der "GrundTeile", die GrundTeile nach folgender Tabelle (Tab1.:Bauteile_&_Pins) Kabel passend zu den genutzen Pins gelegt.
+
+[BILD]
+
+#### 3. Schritt Motage: Kabel anlöten
+
+Hierbei werden die Kabel und die Pinenden der Sensoren und Akturoren mit den Pins des Raspberry Pi Pico verlötet, dabei wurden Brücken gelötet um Knotenpunkte zu erzeugen.
+
+#### 4. Schritt Motage: Bestückung
+
+Nun werden die zwei Lochplatten am Gehäuse festgeschraubt, die Sensoren und Aktuatoren die eine Buchsenleiste haben in ihre zugehöhrige Buchse gesteckt.
+
+[BILD]
 
 ## **3.Programme Nutzen**
