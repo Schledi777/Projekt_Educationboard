@@ -1,4 +1,5 @@
 # Rotary Menu by Kevin McAleer, May 2021
+# Source: https://github.com/kevinmcaleer/Picontroller/blob/main/rotary.py
 # modified March 2024 for Projekt Educationboard 
 
 from machine import Pin, I2C, reset
@@ -14,7 +15,7 @@ sda = Pin(4)
 scl = Pin(5)
 i2c = I2C(id=id, scl=scl, sda=sda)
 ledPi = Pin(25, Pin.OUT)
-#Variablen zum Ausstellen der RGB
+#Variablen zum Ausstellen der RGB, LED Matrix
 led_r = Pin(14, Pin.OUT)
 led_g = Pin(12, Pin.OUT)
 led_b = Pin(13, Pin.OUT)
