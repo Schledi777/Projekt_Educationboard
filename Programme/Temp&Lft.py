@@ -1,4 +1,4 @@
-#Code by Daniel S., last update March 2024
+#Code by Daniel S. & Micheal E., last update March 2024
 
 from machine import I2C, ADC, Pin
 from sh1106 import SH1106_I2C
