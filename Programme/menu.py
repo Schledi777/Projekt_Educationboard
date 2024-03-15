@@ -1,10 +1,12 @@
 # Rotary Menu by Kevin McAleer, May 2021
-# modified March 2023 for Projekt 
+# modified March 2024 for Projekt Educationboard 
 
 from machine import Pin, I2C, reset
 from os import listdir
+from argbled_lib import Argbled
 from sh1106 import SH1106_I2C
 from time import sleep
+import random
 
 # I2C variables
 id = 0
@@ -12,7 +14,20 @@ sda = Pin(4)
 scl = Pin(5)
 i2c = I2C(id=id, scl=scl, sda=sda)
 ledPi = Pin(25, Pin.OUT)
-
+#Variablen zum Ausstellen der RGB
+led_r = Pin(14, Pin.OUT)
+led_g = Pin(12, Pin.OUT)
+led_b = Pin(13, Pin.OUT)
+led_r.value(0)
+led_g.value(0)
+led_b.value(0)
+numpix = 64
+led_list = [0] * 64
+blank = (0,0,0)
+np = Argbled(numpix, 0, 2, "RGB")
+for i in range(numpix):
+    np.set_pixel(i, blank)
+    np.show()
 # Screen Variables
 WIDTH = 128
 HEIGHT = 64
@@ -102,11 +117,12 @@ show_menu(file_list)
 
 # Repeat forever
 while True:
+    
     if previous_value != step_pin.value():
         if step_pin.value() == False:
 
             # Turned Left 
-            if direction_pin.value() == False:
+            if direction_pin.value() == True:
                 if highlight > 1:
                     highlight -= 1  
                 else:
