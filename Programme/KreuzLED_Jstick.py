@@ -8,7 +8,7 @@ from argbled_lib import Argbled
 import utime
 import random
 
-#
+#number of LED's
 numpix = 64
 #InPut 8x8 matrix
 np = Argbled(numpix, 0, 2, "RGB")
