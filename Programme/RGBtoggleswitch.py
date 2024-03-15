@@ -1,3 +1,4 @@
+#Code by Daniel S. & Michael E., last update March 2024
 from machine import Pin
 from time import sleep
 Led_g = 15
