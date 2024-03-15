@@ -1,7 +1,7 @@
 #KreuzJstickLED.py, copyright = MIT
 #used lib neopixel.py (renamed argbled_lib.py) => used class Neopixel (renamed class Argled)
 #I had to rename the lib and class cause I hab a Error finding the class Neopixel from lib neopixel.py, after I renamed it Code worked 
-#March 2024 
+#last update March 2024 by Daniel S. & Michael E. 
 
 from machine import Pin, ADC
 from argbled_lib import Argbled
@@ -13,8 +13,8 @@ numpix = 64
 #InPut 8x8 matrix
 np = Argbled(numpix, 0, 2, "RGB")
 #JoyStick Pins
-xAxis = ADC(Pin(27))
-yAxis = ADC(Pin(26))
+xAxis = ADC(Pin(26))
+yAxis = ADC(Pin(27))
 button = Pin(17,Pin.IN, Pin.PULL_UP)
 
 red = (0, 255, 0)
@@ -40,10 +40,10 @@ while True:
     x = 28
     
     np.set_pixel(x, colors_rgb[random.randint(0, len(colors_rgb)-1)])
-    np.set_pixel(x+1, white)
-    np.set_pixel(x-1, white)
-    np.set_pixel(x+8, white)
-    np.set_pixel(x-8, white)
+    np.set_pixel(x+1, colors_rgb[random.randint(0, len(colors_rgb)-1)])
+    np.set_pixel(x-1, colors_rgb[random.randint(0, len(colors_rgb)-1)])
+    np.set_pixel(x+8, colors_rgb[random.randint(0, len(colors_rgb)-1)])
+    np.set_pixel(x-8, colors_rgb[random.randint(0, len(colors_rgb)-1)])
         
     if bValue == 0:
         np.set_pixel(x, white)
