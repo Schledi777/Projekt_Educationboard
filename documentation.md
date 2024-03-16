@@ -1,4 +1,10 @@
 # **Dokumentation zum Projekt Educationboard zur Lehrveranstaltung Embedded Systems**
+## Gliederung
+### 1. Pico mit Computer Verbinden
+### 2. Istallation von Mircro Python
+### 3. Istallation IDE und Verbinden des Pi Pico's mit der IDE
+
+
 
 ## **1.Instalation Micropython auf Raspberry Pi Pico und Verbinen in der IDE**
 
