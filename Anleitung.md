@@ -20,7 +20,7 @@ Verwenden des Rotary Encoders, um durch die Liste zu navigieren. Drehungen im Uh
 
 
 ## 1.3 Auswahl des PythonProgramms
-Durch das eindrücken des Rotery Encoders, wird das ausgewählte PythonProgramm ausgeführt. 
+Durch das eindrücken des Rotery Encoders, wird das ausgewählte PythonProgramm z.Bsp.:'Temp&Lft.py' ausgeführt. 
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/bc909d34-2d3c-4eb6-84a5-d6efe6d22890)
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/411476dc-f5dc-4478-af1d-27636dcca7c3)
