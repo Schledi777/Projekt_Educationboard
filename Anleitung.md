@@ -5,9 +5,8 @@
 ### 2. Anleitung um eigene Programme ins Menu einzufügen (Bsp DHT11 Programm)
 ### 3. Anleitung Intgration OLED
 
+---
 
-
-.
 # 1. Anleitung Menu Steuerung  
 
 ## 1.1 Raspberry Pi Pico mit Stromquelle verbinden
@@ -29,9 +28,9 @@ Bild
 Um das laufende Programm zu Verlassen muss der Griff des Rotery Encoder wieder eingedrückt werden, wie für's starten
 
 
+---
 
 
- .
 # 2. Anleitung um eigene Programme ins Menu einzufügen (Bsp DHT11 Programm)
 
 Das wichtigste Zuerst das Menu Programm: [main.py](https://github.com/Schledi777/Projekt_Educationboard/blob/0e447e8d7ff2c907a0dd9716c9d91fd424211b08/Programme/main.py) sollte auf dem Pi schon installiert sein.
@@ -85,6 +84,14 @@ Wenn das Programm läuft wird wieder der Button/Knopf des Rotery Encoders einged
    ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/34ea6314-d324-46ab-baae-aa15a3199ca6)
 
 
+---
 
-.
-# 3. Anleitung Intgration OLED
+# 3. Anleitung Intgration OLED zu einem Programm
+Das EducationBoard verwendet einen *OLED Display I2C SSH1106 128 x 64 Pixel*.
+## 3.1 Bibliothek für OLED hinzufügen
+Sollte auf dem Pi Pico die Bibliothek sh1106.py NICHT unter dem Ordner lib im Pi zufinden sein, wird diese wie folgt hinzugefügt.
+Zuerst wird die Bibliothek aus dem Ordner Lib aus dem Ordner Programme ['sh1106.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/98594aedf2d1238a6d3b70266d346a011cbef856/Programme/Lib/sh1106.py) rauskopiert und im Raspberry Pi Pico im Ordner Lib gespeichert.
+
+
+## 3.2 
+## 3.3 
