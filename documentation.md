@@ -72,29 +72,36 @@ Dabei werden diese zwei Lochrasterplatinen an der 160mm LängstSeite zusammengef
 
 #### 1. Schritt Montage: Grundbauteile anlöten 
 
-Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und danach alle anderen Komponeten die keine Buchsenleite benötigen, wie der Thumpstick, der Drechpotientiometer, die 8x8 LED Matrix, der 330Ohm Wiederstand und die RGBKathodenLED angelötet.
+Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und danach alle anderen Komponeten die keine Buchsenleite benötigen, wie der Thumpstick/Joystock, der Drechpotientiometer, die 8x8 LED Matrix, der 220Ohm Wiederstand und die RGBKathodenLED angelötet.
    
  ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/da8bf65e-5d1f-4b9c-8c78-c89950db6bec)
 
 
 
-#### 2. Schritt Motage: Kabelverlegen 
+#### 2. Schritt Motage: Kabelverlegen und Anlöten
 
 Da wir nun keine gefräßte Platine mehr haben müssen alle Kabel per Hand verlegt verlegt werden. Nun werden nachdem Anlöten der "GrundTeile", die GrundTeile nach folgender Tabelle (Tab1.:Bauteile_&_Pins) Kabel passend zu den genutzen Pins gelegt.
-
+Hierbei werden die Kabel und die Pinenden der Sensoren und Akturoren mit den Pins des Raspberry Pi Pico verlötet, dabei wurden Brücken mit Silberdraht gelötet oder einfachen Lötzinn um Knotenpunkte zu erzeugen. 
+Nach jeder Verlötung der Kabelverbindungen wurde mit einem Multimeter kontrolliert, ob es zu Kurzschlüssen zwischen 2 benachbarten Pins kommt und ob es einen Kurzschluss von dem Sensor/Aktor Pin und dem zugehöhrigen Raspberry Pin gab, um sicherzustellen das es keine "losen" Verbinungen gibt.
    [BILD]
 
-#### 3. Schritt Motage: Kabel anlöten
 
-Hierbei werden die Kabel und die Pinenden der Sensoren und Akturoren mit den Pins des Raspberry Pi Pico verlötet, dabei wurden Brücken gelötet um Knotenpunkte zu erzeugen.
+#### 3. Schritt Motage: Bestückung und Test
 
-   [BILD]
+Die Sensoren und Aktuatoren die eine Buchsenleiste haben werden in ihre zugehöhrige Buchse gesteckt und die Programme getestet.
 
-#### 4. Schritt Motage: Bestückung
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/a501f00d-c233-4443-a7cc-6dfd5ab9f0d3)
 
-Nun werden die zwei Lochplatten am Gehäuse festgeschraubt, die Sensoren und Aktuatoren die eine Buchsenleiste haben in ihre zugehöhrige Buchse gesteckt.
+Da es zu einem Fehler bei der RGB-LED kam wurde diese nochmal neu verlötet.
 
-   [BILD]
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/602be3b5-7d63-4668-a853-1864fe128de2)
+
+   
+#### 4. Schritt Montage: Verschrauben
+
+Hierbei werden die 2 Lochrasster Plattinen mit 8 Schrauben in das 200mm x 160mm Gehäuse Verschraubt und die Montage ist beendet.
+
+
 
 ## **3.Programme Nutzen**
 
