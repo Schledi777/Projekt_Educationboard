@@ -83,24 +83,31 @@ Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und dan
 Da wir nun keine gefräßte Platine mehr haben müssen alle Kabel per Hand verlegt verlegt werden. Nun werden nachdem Anlöten der "GrundTeile", die GrundTeile nach folgender Tabelle (Tab1.:Bauteile_&_Pins) Kabel passend zu den genutzen Pins gelegt.
 Hierbei werden die Kabel und die Pinenden der Sensoren und Akturoren mit den Pins des Raspberry Pi Pico verlötet, dabei wurden Brücken mit Silberdraht gelötet oder einfachen Lötzinn um Knotenpunkte zu erzeugen. 
 Nach jeder Verlötung der Kabelverbindungen wurde mit einem Multimeter kontrolliert, ob es zu Kurzschlüssen zwischen 2 benachbarten Pins kommt und ob es einen Kurzschluss von dem Sensor/Aktor Pin und dem zugehöhrigen Raspberry Pin gab, um sicherzustellen das es keine "losen" Verbinungen gibt.
-   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/112701ad-ee83-444c-97c4-69adce258360)
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e51d067f-aba4-40ca-add9-d4cc50855d9d)
+
+
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/4c652f2e-828a-4f55-a904-a9827cf12bbd)
+
 
 
 #### 3. Schritt Motage: Bestückung und Test
 
 Die Sensoren und Aktuatoren die eine Buchsenleiste haben werden in ihre zugehöhrige Buchse gesteckt und die Programme getestet.
 
-   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/a501f00d-c233-4443-a7cc-6dfd5ab9f0d3)
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/23418642-8b29-4e98-b293-170316a96db0)
+
+   
    
 Da es zu einem Fehler bei der RGB-LED kam wurde diese nochmal neu verlötet.
 
-
+   
    
 #### 4. Schritt Montage: Verschrauben
 
 Hierbei werden die 2 Lochrasster Plattinen mit 8 Schrauben in das 200mm x 160mm Gehäuse Verschraubt und die Montage ist beendet.
 
-   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/602be3b5-7d63-4668-a853-1864fe128de2)
+ ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/21f4587a-8f3f-488d-8b3a-76cd816df51d)
+
 
 ## **3.Programme Nutzen**
 
