@@ -51,8 +51,8 @@ Nun den Code vom Programm: [**'Return_to_Menu_Button.py'**](https://github.com/S
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e09c8307-8410-4275-b465-ed2b0e1fe973)
 
 
-Wie in dieser Abbildung zuerkennen haben wir in Zeile haben wir in Zeile 3 **Pin** aus der Bibliothek **machine** und in Zeile 7 die Biliothek **sys** hinzugefügt.
-In Zeile 11 haben wir den Knopf definiert mit dem wir zurück in Menu kommen mit dem Befehl: 
+Wie in dieser Abbildung zuerkennen wird in Zeile 3 **Pin** aus der Bibliothek **machine** und in Zeile 7 die Biliothek **sys** hinzugefügt.
+In Zeile 11 wird der Knopf definiert mit dem wir zurück in Menu kommen mit dem Befehl: 
 **'button_pin = Pin(9, Pin.IN, Pin.PULL_UP)'**. Von Zeile 18 bis 32 kommt definiern wir eine funktion names **button_pressed** die das laufende Programm unterbricht und das Menu Programm **'main.py'** startet.
 
 Nach dem Compalieren sollte das Programm erneut getestet werden und entstande Fehler korrigieren, wie z.Bsp.: die vergessene Bibliothek sys hinzuzufügen. 
@@ -75,6 +75,13 @@ Wie in der [Dokumentation.md](https://github.com/Schledi777/Projekt_Educationboa
 
 
 ## 2.4 Programm im Menu Testen
+Nun wird getestet ob das Programm auf dem Raspberry Pi Pico funktioniert, dabei wird mit dem Rotery Encoder das Programm **Temp&Lft.py** ausgewählt und mit dem eindrücken des Encoders gestartet. 
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/411476dc-f5dc-4478-af1d-27636dcca7c3)
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/3506fc69-14a1-4c40-a98a-c133b997ce44)
+
+
+Wenn das Programm läuft wird wieder der Button/Knopf des Rotery Encoders eingedrückt und somit erscheint wieder das Menu.
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/34ea6314-d324-46ab-baae-aa15a3199ca6)
 
 
 
