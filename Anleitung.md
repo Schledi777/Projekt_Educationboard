@@ -23,7 +23,8 @@ Das wichtigste Zuerst das Menu Programm: [main.py]() sollte auf dem Pi schon ins
 
 ## 1. Programm Testen
 
-Erstmal das Programm im Compailer compilieren und alle Knöpfe bzw. Sensoren/Aktuatoren auf funktionalität Testen. In unserem Fall hat das Programm für den DHT11 Sensor funktioniert und wir bekommen eine Ausgabe auf dem OLED.
+Erstmal das Programm im Compailer compilieren und alle Knöpfe bzw. Sensoren/Aktuatoren auf funktionalität Testen. 
+In unserem Fall hat das Programm für den DHT11 Sensor funktioniert und wir bekommen eine Ausgabe auf dem OLED.
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e0e80df9-71fe-4305-bc10-b21786a1ecb9)
 
 
