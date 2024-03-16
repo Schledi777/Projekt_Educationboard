@@ -24,8 +24,8 @@ Erstmal das Programm im Compailer compilieren und alle Knöpfe bzw. Sensoren/Akt
 
 ## 2. Return to Menu Baustein einfügen
 
+https://github.com/Schledi777/Projekt_Educationboard/blob/f0250ac8361fecf064085da8ad1dc9779a7f3361/Programme/Baustein_%26_Test_Prg/Return_to_Menu_Button.py
 
-https://github.com/Schledi777/Projekt_Educationboard/tree/f0250ac8361fecf064085da8ad1dc9779a7f3361/Programme/Baustein_%26_Test_Prg
 
 ## 3. Programm auf Raspberry Speichern
 
