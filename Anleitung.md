@@ -24,10 +24,10 @@ Erstmal das Programm im Compailer compilieren und alle Knöpfe bzw. Sensoren/Akt
 
 ## 2. Return to Menu Baustein einfügen
 Nun den Code vom Programm: 'Return_to_Menu_Button.py' [Link](https://github.com/Schledi777/Projekt_Educationboard/blob/f0250ac8361fecf064085da8ad1dc9779a7f3361/Programme/Baustein_%26_Test_Prg/Return_to_Menu_Button.py
-) einfügen dabei kann ein belibiger Button gewählt werden, im BausteinCode ist der definierte Button vom Rotery Encoder.
+) einfügen dabei kann ein belibiger Button gewählt werden, im BausteinCode ist der definierte Button vom Rotery Encoder. 
+Nach dem Compalieren sollte das Programm erneut getestet werden und entstande Fehler korrigieren, wie z.Bsp.: die vergessene Bibliothek sys hinzuzufügen. 
 
 ## 3. Programm auf Raspberry Speichern
-
 
 
 ## 4. Programm im Menu Testen
