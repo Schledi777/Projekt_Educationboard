@@ -1,14 +1,15 @@
 #KreuzJstickLED.py, copyright = MIT
 #used lib neopixel.py (renamed argbled_lib.py) => used class Neopixel (renamed class Argled)
 #I had to rename the lib and class cause I hab a Error finding the class Neopixel from lib neopixel.py, after I renamed it Code worked 
-#last update March 2024 by Daniel S. & Michael E. 
+#Code by Daniel S. & Michael E., last update March 2024  
 
 from machine import Pin, ADC
 from argbled_lib import Argbled
 import utime
 import random
+import sys
 
-#number of LED's
+#Anzahl Pixel Matrix
 numpix = 64
 #InPut 8x8 matrix
 np = Argbled(numpix, 0, 2, "RGB")
@@ -16,6 +17,7 @@ np = Argbled(numpix, 0, 2, "RGB")
 xAxis = ADC(Pin(26))
 yAxis = ADC(Pin(27))
 button = Pin(17,Pin.IN, Pin.PULL_UP)
+button_pin = Pin(9, Pin.IN, Pin.PULL_UP)
 
 red = (0, 255, 0)
 orange = (255, 50, 0)
@@ -32,6 +34,21 @@ delay = 1
 utime.sleep(delay)  
 np.brightness(42)
 blank = (0,0,0)
+
+#RETURN TO MENU
+debounce_time = 50
+
+def button_pressed(pin):
+    from main import main  # Importiere die main-Funktion aus main.py
+    time.sleep_ms(debounce_time)  # Wartezeit für den Knopf-Debouncing
+    if button_pin.value() == 0:
+        # Der Knopf wurde gedrückt
+        print("Knopf wurde gedrückt! Starte main.py.")
+        main()  # Starte die main-Funktion aus main.py
+        sys.exit("main.py")
+
+# Dem Knopf einen Interrupt-Handler hinzufügen
+button_pin.irq(trigger=Pin.IRQ_FALLING, handler=button_pressed)
 
 while True:
     xValue = xAxis.read_u16()
