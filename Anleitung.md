@@ -37,9 +37,9 @@ Wie in der [Dokumentation.md]() erwähnt werden die Schritte 7. & 8. getätigt:
 
 
 
-2. Programm oder Bibliotek mit '.py' benennen und mit dem auswählen von 'OK' wird die Datei gespeichert
+2. Programm mit seinem Wunschnamen und der Endung'.py' benennen z.Bsp.: **Temp&Lft.py** und mit dem auswählen von 'OK' wird das Programm gespeichert
 
-   ![image](https://github.com/Schledi777/ebunoard/assets/130638123/3cc35c2d-7460-4d19-adad-caaffc2c970e)
+   BILD
 
 ## 4. Programm im Menu Testen
 
