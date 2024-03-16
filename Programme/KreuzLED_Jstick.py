@@ -1,4 +1,4 @@
-#KreuzJstickLED.py, copyright = MIT
+#KreuzJstickLED.py
 #used lib neopixel.py (renamed argbled_lib.py) => used class Neopixel (renamed class Argled)
 #I had to rename the lib and class cause I hab a Error finding the class Neopixel from lib neopixel.py, after I renamed it Code worked 
 #Code by Daniel S. & Michael E., last update March 2024  
