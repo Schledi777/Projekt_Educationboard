@@ -7,7 +7,7 @@
 
 
 
-
+.
 # 1. Anleitung Menu Steuerung  
 
 ## 1.1 Raspberry Pi Pico mit Stromquelle verbinden
@@ -31,7 +31,7 @@ Um das laufende Programm zu Verlassen muss der Griff des Rotery Encoder wieder e
 
 
 
-
+ .
 # 2. Anleitung um eigene Programme ins Menu einzufügen (Bsp DHT11 Programm)
 
 Das wichtigste Zuerst das Menu Programm: [main.py](https://github.com/Schledi777/Projekt_Educationboard/blob/0e447e8d7ff2c907a0dd9716c9d91fd424211b08/Programme/main.py) sollte auf dem Pi schon installiert sein.
@@ -86,4 +86,5 @@ Wenn das Programm läuft wird wieder der Button/Knopf des Rotery Encoders einged
 
 
 
+.
 # 3. Anleitung Intgration OLED
