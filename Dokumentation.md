@@ -1,8 +1,8 @@
 # **Dokumentation zum Projekt Educationboard zur Lehrveranstaltung Embedded Systems**
 ## Gliederung:
 #### 1. Pico mit Computer Verbinden
-#### 2. Istallation von Mircro Python
-#### 3. Istallation IDE und Verbinden des Pi Pico's mit der IDE
+#### 2. Montage
+#### 3. Istallation von Mircro Python
 
 
 
@@ -114,9 +114,3 @@ Da es zu einem Fehler bei der RGB-LED kam wurde diese nochmal neu verlötet.
 Hierbei werden die 2 Lochrasster Plattinen mit 8 Schrauben in das 200mm x 160mm Gehäuse Verschraubt und die Montage ist beendet.
 
  ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/21f4587a-8f3f-488d-8b3a-76cd816df51d)
-
-
-## **3.Programme Nutzen**
-
-Wir haben ein RotationsMenu-Programm geschriben, mit dieses wird mit der IDE ihres vertrauens gestartet dann kann man auf dem EducationBoard die Programme mit dem Drehpotentiometer ausgewählt und abgespielt werden. Um ein Anderes Programm zu starten wird das MenuProgramm einfach rebootet.
-
