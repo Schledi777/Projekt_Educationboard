@@ -17,15 +17,29 @@ Bild
 ## 4. Verlassen des PythonProgramms
 Um das laufende Programm zu Verlassen muss der Griff des Rotery Encoder wieder eingedrückt werden, wie für's starten
 
-# Anleitung um eigene Programme ins Menu einzufügen
+# Anleitung um eigene Programme ins Menu einzufügen (Bsp DHT11 Programm)
+
+Das wichtigste Zuerst das Menu Programm: [main.py]() sollte auf dem Pi schon installiert sein.
+
 ## 1. Programm Testen
 
-Erstmal das Programm im Compailer compilieren und alle Knöpfe bzw. Sensoren/Aktuatoren auf funktionalität Testen. 
+Erstmal das Programm im Compailer compilieren und alle Knöpfe bzw. Sensoren/Aktuatoren auf funktionalität Testen. In unserem Fall hat das Programm für den DHT11 Sensor funktioniert und wir bekommen eine Ausgabe auf dem OLED.
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e0e80df9-71fe-4305-bc10-b21786a1ecb9)
+
 
 ## 2. Return to Menu Baustein einfügen
 Nun den Code vom Programm: [**'Return_to_Menu_Button.py'**](https://github.com/Schledi777/Projekt_Educationboard/blob/f0250ac8361fecf064085da8ad1dc9779a7f3361/Programme/Baustein_%26_Test_Prg/Return_to_Menu_Button.py
 ) einfügen dabei kann ein belibiger Button gewählt werden, im BausteinCode ist der definierte Button vom Rotery Encoder. 
+
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/5efae15e-b87f-44b7-af5d-3aca905ea146)
+
+Wie in dieser Abbildung zuerkennen haben wir in Zeile haben wir in Zeile 3 **Pin** aus der Bibliothek **machine** und in Zeile 7 die Biliothek **sys** hinzugefügt.
+In Zeile 11 haben wir den Knopf definiert mit dem wir zurück in Menu kommen mit dem Befehl:**'button_pin = Pin(9, Pin.IN, Pin.PULL_UP)'**.
+Von Zeile 18 bis 32 kommt definiern wir eine funktion names **button_pressed** die das laufende Programm unterbricht und das Menu Programm **'main.py'** startet.
+
 Nach dem Compalieren sollte das Programm erneut getestet werden und entstande Fehler korrigieren, wie z.Bsp.: die vergessene Bibliothek sys hinzuzufügen. 
+
+
 
 ## 3. Programm auf Raspberry Speichern
 Wie in der [Dokumentation.md]() erwähnt werden die Schritte 7. & 8. getätigt:
