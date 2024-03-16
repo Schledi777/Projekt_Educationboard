@@ -10,14 +10,14 @@
 # 1. Anleitung Menu Steuerung  
 
 ## 1.1 Raspberry Pi Pico mit Stromquelle verbinden
-
-Bild
+Der Raspberry Pi Pico wird an eine Stromquelle mit einem Micro-USB Kabel verbunden, dass kann ein PowerBank sein oder auch ein Pc Outlet                  
 
 ## 1.2 Mit dem Drehpotentiometer Programm auswählen
 Durch drehen des Drehpotentiometers die Liste bzw. das Menu zu navigieren, um die Auswahl zu ändern.
 Verwenden des Rotary Encoders, um durch die Liste zu navigieren. Drehungen im Uhrzeigersinn um nach unten zu navigieren und gegen den Uhrzeiger um die Auswahl nach oben zu ändern.
 
-Bild
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/61042c13-0abd-4a33-968d-5a10c7bdb27e)
+
 
 ## 1.3 Auswahl des PythonProgramms
 Durch das eindrücken des Rotery Encoders, wird das ausgewählte PythonProgramm ausgeführt. 
