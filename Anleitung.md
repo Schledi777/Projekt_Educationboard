@@ -19,6 +19,18 @@ Um das laufende Programm zu Verlassen muss der Griff des Rotery Encoder wieder e
 
 # Anleitung um eigene Programme ins Menu einzufügen
 ## 1. Programm Testen
+
+Erstmal das Programm im Compailer compilieren und alle Knöpfe bzw. Sensoren/Aktuatoren auf funktionalität Testen. 
+
 ## 2. Return to Menu Baustein einfügen
+
+
+
+
 ## 3. Programm auf Raspberry Speichern
+
+
+
 ## 4. Programm im Menu Testen
+
+
