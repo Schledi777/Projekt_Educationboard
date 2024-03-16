@@ -75,12 +75,13 @@ Wie in der [Dokumentation.md](https://github.com/Schledi777/Projekt_Educationboa
 
 
 ## 2.4 Programm im Menu Testen
-Nun wird getestet ob das Programm auf dem Raspberry Pi Pico funktioniert, dabei wird mit dem Rotery Encoder das Programm **Temp&Lft.py** ausgewählt und mit dem eindrücken des Encoders gestartet. 
-   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/411476dc-f5dc-4478-af1d-27636dcca7c3)
-   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/3506fc69-14a1-4c40-a98a-c133b997ce44)
+Nun wird getestet ob das Programm auf dem Raspberry Pi Pico funktioniert, dabei wird mit dem Rotery Encoder das Programm **Temp&Lft.py** ausgewählt und mit dem eindrücken des Encoders gestartet.
 
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/411476dc-f5dc-4478-af1d-27636dcca7c3)
+   ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e0e80df9-71fe-4305-bc10-b21786a1ecb9)
 
 Wenn das Programm läuft wird wieder der Button/Knopf des Rotery Encoders eingedrückt und somit erscheint wieder das Menu.
+
    ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/34ea6314-d324-46ab-baae-aa15a3199ca6)
 
 
