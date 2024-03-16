@@ -19,7 +19,7 @@ Um das laufende Programm zu Verlassen muss der Griff des Rotery Encoder wieder e
 
 # Anleitung um eigene Programme ins Menu einzufügen (Bsp DHT11 Programm)
 
-Das wichtigste Zuerst das Menu Programm: [main.py]() sollte auf dem Pi schon installiert sein.
+Das wichtigste Zuerst das Menu Programm: [main.py](https://github.com/Schledi777/Projekt_Educationboard/blob/0e447e8d7ff2c907a0dd9716c9d91fd424211b08/Programme/main.py) sollte auf dem Pi schon installiert sein.
 
 ## 1. Programm Testen
 
@@ -45,7 +45,7 @@ Wenn es funktioniert wird in unserem Fall das Menu Programm gestartet, wenn man 
 
 
 ## 3. Programm auf Raspberry Speichern
-Wie in der [Dokumentation.md]() erwähnt werden die Schritte 7. & 8. getätigt:
+Wie in der [Dokumentation.md](https://github.com/Schledi777/Projekt_Educationboard/blob/0e447e8d7ff2c907a0dd9716c9d91fd424211b08/Dokumentation.md) erwähnt werden die Schritte 7. & 8. getätigt:
 
 1. Um Programme auf den Pi zu Speichern aktuelles Programm offen haben, dann unter Registerkarte '**Datei**' und dort dann '**Speichern unter...**' auswählen. Dann öffnet sich ein weiteres Menu, in welchen man zwischen Computer und Raspberry entscheiden kann. Dort auf '*Raspberry PI Pico*' klicken und es öffnet sich das Laufwerk des Pico's.
 
