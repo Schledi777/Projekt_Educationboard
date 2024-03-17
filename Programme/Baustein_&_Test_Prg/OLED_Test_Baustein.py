@@ -1,3 +1,5 @@
+#sdadasdad
+
 from machine import I2C, Pin
 from sh1106 import SH1106_I2C
 import time
