@@ -2,7 +2,7 @@
 ## Gliederung:
 #### 1. Pico mit Computer Verbinden
 #### 2. Montage
-#### 3. Istallation von Mircro Python
+#### 3. Installation von Mircro Python
 
 
 
@@ -17,7 +17,7 @@ Mit einem DATENÜBERTRAGUNGSFÄHIGEN Micro-USB Kabel, während man den '**BOOTSE
 Der '**BOOTSEL button**' kann nach dem Verbinden losgelassen werden. Nun müsste im Explorer unter '*Dieser PC*' bei '*Geräte und Laufwerke*' ein Laufwerk namens '**RPI-RP2**' vorhanden sein. 
 
 
-### 2. Istallation von Mircro Python
+### 2. Installation von Mircro Python
 
 
 Nun Link von Source folgen auf den **Raspberry Pi Pico** link klicken, wie in der folgenden Abildung.
