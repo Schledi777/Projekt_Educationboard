@@ -77,7 +77,7 @@ Aufgrund der im Beleg beschriebenen Probleme mit der Platine haben wir beschloss
 
 #### 1. Schritt Montage: Grundbauteile anlöten 
 
-Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und danach alle anderen Komponeten die keine Buchsenleite benötigen, wie der Thumpstick/Joystock, der Drechpotientiometer, die 8x8 LED Matrix, der 220Ohm Wiederstand und die RGBKathodenLED angelötet.
+Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und danach alle anderen Komponeten die keine Buchsenleite benötigen, wie der Thumpstick/Joystock, der Drechpotientiometer, die 8x8 LED Matrix, der 220 Ohm Wiederstand und die RGBKathodenLED angelötet.
    
  ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/da8bf65e-5d1f-4b9c-8c78-c89950db6bec)
 
@@ -85,9 +85,9 @@ Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und dan
 
 #### 2. Schritt Motage: Kabelverlegen und Anlöten
 
-Da wir nun keine gefräßte Platine mehr haben müssen alle Kabel per Hand verlegt verlegt werden. Nun werden nachdem Anlöten der "GrundTeile", die GrundTeile nach folgender Tabelle (Tab1.:Bauteile_&_Pins) Kabel passend zu den genutzen Pins gelegt.
-Hierbei werden die Kabel und die Pinenden der Sensoren und Akturoren mit den Pins des Raspberry Pi Pico verlötet, dabei wurden Brücken mit Silberdraht gelötet oder einfachen Lötzinn um Knotenpunkte zu erzeugen. 
-Nach jeder Verlötung der Kabelverbindungen wurde mit einem Multimeter kontrolliert, ob es zu Kurzschlüssen zwischen 2 benachbarten Pins kommt und ob es einen Kurzschluss von dem Sensor/Aktor Pin und dem zugehöhrigen Raspberry Pin gab, um sicherzustellen das es keine "losen" Verbinungen gibt.
+
+Nachdem wir keine gefräste Platine mehr verwenden, müssen alle Kabel manuell verlegt werden. Nach dem Anlöten der "Grundteile" gemäß der Tabelle (Tab1.: Bauteile_&_Pins) werden die entsprechenden Kabel passend zu den genutzten Pins platziert. Dabei werden die Kabelenden der Sensoren und Aktuatoren mit den Pins des Raspberry Pi Pico verlötet. Um Knotenpunkte zu schaffen, werden Brücken mit Silberdraht oder einfaches Lötzinn verwendet.
+Nach jeder Verbindungslötung wurde mit einem Multimeter überprüft, ob es zwischen benachbarten Pins zu Kurzschlüssen kommt und ob es einen Kurzschluss zwischen dem Sensor-/Aktuator-Pin und dem zugehörigen Raspberry-Pin gibt. Dies gewährleistet, dass es keine "losen" Verbindungen gibt.
 
    ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e51d067f-aba4-40ca-add9-d4cc50855d9d)
 
@@ -117,4 +117,4 @@ Hierbei werden die 2 Lochrasster Plattinen mit 8 Schrauben in das 200mm x 160mm 
 
 ## **3.Programme Nutzen**
 
-Wir haben ein RotationsMenu-Programm geschriben, mit dieses wird mit der IDE ihres vertrauens gestartet dann kann man auf dem EducationBoard die Programme mit dem Drehpotentiometer ausgewählt und abgespielt werden. Um ein Anderes Programm zu starten wird das MenuProgramm einfach rebootet.
+Wir haben ein Rotationsmenü-Programm entwickelt, das mit Ihrer bevorzugten IDE gestartet wird. Über das EducationBoard können Programme mithilfe des Drehpotentiometers ausgewählt und abgespielt werden. Um ein anderes Programm zu starten, wird das Menüprogramm einfach neu gestartet.
