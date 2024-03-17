@@ -46,7 +46,7 @@ Verbinden der IDE mit Pi Pico:
 
    ![image](https://github.com/Schledi777/ebunoard/assets/130638123/4fe262bd-e212-4282-a591-b8ef2043bb0e)
 
-5. Auf das Stopschild klicken um zu Connecten bzw. einen Softreboot starten oder das laufende Programm zu stoppen.
+5. Auf das Stopschild klicken um zu Connecten bzw. einen Softreboot zu starten oder das laufende Programm zu stoppen.
 
    ![image](https://github.com/Schledi777/ebunoard/assets/130638123/8387de42-e4bb-436a-9c90-b63f8a294ce4)
 
