@@ -73,8 +73,7 @@ Verbinden der IDE mit Pi Pico:
 
 ## **2.Montage**
 
-Wegen der im Beleg erläuterten Probleme mit der Platine, haben wir uns entschieden auf Lochrasterplatinen zu setzen. Hierbei haben wir dann ein neues Gehäuse entworfen und zwei einseitige Lochrasterplatinen mit den Maßen 160mm Länge und 100mm Breite, mit einem Rastermaß von 2,54 mm.
-Dabei werden diese zwei Lochrasterplatinen an der 160mm LängstSeite zusammengefügt, weil dies die stabielste, flächentechnisch minimalste und ästetischste Anordnung der Platinen ist ohne nochmal diese zu bearbeiten.
+Aufgrund der im Beleg beschriebenen Probleme mit der Platine haben wir beschlossen, auf Lochrasterplatinen umzusteigen. Dafür haben wir ein neues Gehäuse entworfen und zwei einseitige Lochrasterplatinen mit den Abmessungen von 160 mm Länge und 100 mm Breite sowie einem Rastermaß von 2,54 mm ausgewählt. Diese beiden Lochrasterplatinen werden entlang der 160 mm langen Seite miteinander verbunden, da dies die stabilste, flächenmäßig effizienteste und ästhetischste Anordnung ist, ohne dass weitere Bearbeitungen erforderlich sind.
 
 #### 1. Schritt Montage: Grundbauteile anlöten 
 
