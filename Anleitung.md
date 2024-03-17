@@ -65,7 +65,7 @@ Wie in der [Dokumentation.md](https://github.com/Schledi777/Projekt_Educationboa
 
 
 
-2. Programm mit seinem Wunschnamen und der Endung'.py' benennen z.Bsp.: **Temp&Lft.py** und mit dem auswählen von 'OK' wird das Programm gespeichert
+2. Programm mit seinem Wunschnamen und der Endung'.py' benennen z.Bsp.: **Temp&Lft.py** und mit dem auswählen von 'OK' wird das Programm gespeichert.
 
    ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/3506fc69-14a1-4c40-a98a-c133b997ce44)
 
