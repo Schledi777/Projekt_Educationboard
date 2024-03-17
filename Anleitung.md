@@ -93,13 +93,13 @@ Zuerst wird die Bibliothek aus dem Ordner Lib aus dem Ordner Programme ['sh1106.
 
 ## 3.2 Erklärung Syntax der Bibliothek
 Der Beispiel Baustein ['OLED_Test_Baustein.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/d16e9fedaf6b2823e0aaa90fe9d6515f0642ee1b/Programme/Baustein_%26_Test_Prg/OLED_Test_Baustein.py) wird zur Erklärung der Syntax genutzt.
-Um den OLED nutzen zu können, muss wie Zeile 3 von der Bibliothek '**machine**' I2C und Pin importiert werden, in Zeile 4 wird aus der Bibliothek '**sh1106**' SH1106_I2C hinzugefügt und in Zeile 5 wird noch die Biliothek '**time**' hinzugefügt.
+Um den OLED nutzen zu können, muss man wie in Zeile 3 von der Bibliothek '**machine**' I2C und Pin importieren, in Zeile 4 wird aus der Bibliothek '**sh1106**' SH1106_I2C hinzugefügt und in Zeile 5 wird die Biliothek '**time**'.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/ed0f9c36-b3c6-46cc-8d80-4a84391f2662)
 
-Als nächstes sollte übersichts Halber die Breite (128 Pixel) und Höhe (64 Pixel) als Variable definiert werden, dies wird in Zeile 7 für die Breite mit '**WIDTH = 128**' und in Zeile 8 die Höhe als '**HEIGHT = 64**' definiert.
-Danach definieren werden die I2C-Eigenschaften wiefolgt defniert: die scl/sck- und sda-Anschlüsse werden mit den jeweiligen Pins belegt (sda auf GPin 6 und sck auf GPin 7), diese Pins sind  freiwählbar müssen aber scl/sda und UART fähig sein. 
-Die Frequenz soll dabei 400000Hz betragen und mit dem Befehl: '**i2c = I2C(0, scl = Pin(5), sda = Pin(4), freq=400000)**' werden all diese I2C-Eigenschaften definiert.
+Als nächstes sollte aus Gründen der Übersichtlichkeit die Breite (128 Pixel) und Höhe (64 Pixel) als Variablen definiert werden. Dies wird in Zeile 7 für die Breite mit **'WIDTH = 128'** und in Zeile 8 für die Höhe mit **'HEIGHT = 64'** durchgeführt.
+
+Danach werden die I2C-Eigenschaften wie folgt definiert: Die SCL/SCK- und SDA-Anschlüsse werden mit den entsprechenden Pins verbunden (SDA auf GPIO-Pin 6 und SCK auf GPIO-Pin 7). Diese Pins sind frei wählbar, müssen jedoch I2C-fähig sein und eine UART-Schnittstelle besitzen. Die Frequenz wird auf 400.000 Hz festgelegt. Dies wird mit dem Befehl **'i2c = I2C(0, scl=Pin(5), sda=Pin(4), freq=400000)'** durchgeführt, um alle diese I2C-Eigenschaften zu definieren.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/a4377c25-61cc-4d1a-9a89-de23a9068af8)
 
