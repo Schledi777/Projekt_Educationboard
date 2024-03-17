@@ -93,7 +93,7 @@ Zuerst wird die Bibliothek aus dem Ordner Lib aus dem Ordner Programme ['sh1106.
 
 ## 3.2 Erklärung Syntax der Bibliothek
 Der Beispiel Baustein ['OLED_Test_Baustein.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/d16e9fedaf6b2823e0aaa90fe9d6515f0642ee1b/Programme/Baustein_%26_Test_Prg/OLED_Test_Baustein.py) wird zur Erklärung der Syntax genutzt.
-Um den OLED nutzen zu können, muss man wie in Zeile 3 von der Bibliothek '**machine**' I2C und Pin importieren, in Zeile 4 wird aus der Bibliothek '**sh1106**' SH1106_I2C hinzugefügt und in Zeile 5 wird die Biliothek '**time**'.
+Um den OLED nutzen zu können, muss man wie in Zeile 3 von der Bibliothek **'machine'** I2C und Pin importieren, in Zeile 4 wird aus der Bibliothek **'sh1106'** SH1106_I2C hinzugefügt und in Zeile 5 wird die Biliothek **'time'**.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/ed0f9c36-b3c6-46cc-8d80-4a84391f2662)
 
@@ -103,33 +103,33 @@ Danach werden die I2C-Eigenschaften wie folgt definiert: Die SCL/SCK- und SDA-An
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/a4377c25-61cc-4d1a-9a89-de23a9068af8)
 
-Der Befehl in Zeile 12: '**display = SH1106_I2C(WIDTH, HEIGHT, i2c)**' erstellt ein Display-Objekt, das die angegebene Breite und Höhe hat und über die angegebene I2C-Verbindung kommuniziert.
-Um die Display Anzeige um 180° zu drehen wird der Befehl aus Zeile 14 '**display.rotate(True)**' verwendet, wenn diese Funktion nicht gebraucht wird '*True*' durch '*False*' ersetzten.
+Der Befehl in Zeile 12: **'display = SH1106_I2C(WIDTH, HEIGHT, i2c)'** erstellt ein Display-Objekt, dass die angegebene Breite und Höhe hat und über die angegebene I2C-Verbindung kommuniziert.
+Um die Display Anzeige um 180° zu drehen wird der Befehl aus Zeile 14 **'display.rotate(True)'** verwendet, wenn diese Funktion nicht gebraucht wird '*True*' durch '*False*' ersetzten.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/bf9d51a6-ee5c-4a3f-b7a6-a1b0a0ffd693)
 
 
-Texte können mit dem Befehl '**display.text("*BeispielText*",x,y)**' hinzugefügt werden, x gibt an um wie viel Pixel die Textausgabe nach rechts verschoben wird und y um wie viele Pixel nach unten.
-In diesem Beispiel haben wir 4 verschiede Texte(HTWK, TEST, TEST2, TEST3) mit verschiedenen Zeilen und Spalten angaben. 
-Zum Anzeigen der Texte, wird wie in Zeile 22 der Befehl: '**display.show()**' genutzt. 
+Texte können mit dem Befehl **'display.text("*BeispielText*",x,y)'** hinzugefügt werden, x gibt an um wie viel Pixel die Textausgabe nach rechts verschoben wird und y um wie viele Pixel nach unten.
+In diesem Beispiel haben wir 4 verschiede Texte(HTWK, TEST, TEST2, TEST3) mit verschiedenen Zeilen und Spalten anzeigen lassen. 
+Zum Anzeigen der Texte, wird wie in Zeile 22 der Befehl: **'display.show()'** genutzt. 
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/6f1199ba-b1db-4d52-9fa5-2b1326814d2e)
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/17f0b795-5cdc-475b-8315-25820384f9ba)
 
-Um die Texte dauerhaft zu aktualisieren, wird eine Dauerschleife mit '**while True:**' definiert Zeile 16. 
-Danach soll nach jedem Durchlauf das Display 'sauber' bzw. Zurückgesetzt werden, dies geschieht durch den Befehl in Zeile 17: '**display.fill(0)**', da ansosten bei Text-Änderungen der Bildschirm 'verschmiert'.
-Mit '**time.sleep(3)**' Zeile 23 wird angegeben nach wie vielen Sekunden, in unserem Fall 3 Sekunden, die Schleife wiederholt wird.
+Um die Texte dauerhaft zu aktualisieren, wird eine Dauerschleife mit **'while True:'** definiert Zeile 16. 
+Danach soll nach jedem Durchlauf das Display 'sauber' bzw. Zurückgesetzt werden, dies geschieht durch den Befehl in Zeile 17: **'display.fill(0)'**, da ansosten bei Text-Änderungen der Bildschirm 'verschmiert'.
+Mit **'time.sleep(3)'** Zeile 23 wird angegeben nach wie vielen Sekunden, in unserem Fall 3 Sekunden, die Schleife wiederholt wird.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/1286dc94-b7fc-46b2-8463-3288bffd24a6)
 
 
 ## 3.3 Bsp. Implementierung für ein DHT11 Programm 
 Dieses Beipiel orientiert sich am Programm: ['Temp&Lft.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/65be3c3f6415bf3bf3732bba2f7c09c1fb358676/Programme/Temp%26Lft.py).
-Im folgenden Bild an den RotenPunktMakierungen zuzuerkennen ist, wurden die im Punkt 3.2 genannten Bibliotheken in dieses Porgramm integiert.
+Wie im Bild anhand der roten Punktmarkierung zuzuerkennen ist, wurden die im Punkt 3.2 genannten Bibliotheken in dieses Porgramm integiert.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/47278c8c-8ac6-4824-bdbd-78810b9a9a60)
 
-Nun müssen die I2C-Eigenschaften des Displays definiert werden und es wird sich erneut an 3.2 orientiert wie an den RotenPunkt Makierungen im folgeneden Bild zuerkennen. 
+Nun müssen die I2C-Eigenschaften des Displays definiert werden und es wird sich erneut an 3.2 orientiert wie an den roten Punktmarkierungen im folgeneden Bild zuerkennen. 
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/4432970f-7975-4f20-a89e-f4c12e3f5a62)
 
