@@ -87,8 +87,8 @@ Wenn das Programm läuft wird wieder der Button/Knopf des Rotery Encoders einged
 Das EducationBoard verwendet einen **OLED Display I2C SSH1106 128 x 64 Pixel**.
 
 ## 3.1 Bibliothek für OLED hinzufügen
-Sollte auf dem Pi Pico die Bibliothek sh1106.py NICHT unter dem Ordner lib im Pi zufinden sein, wird diese wie folgt hinzugefügt.
-Zuerst wird die Bibliothek aus dem Ordner Lib aus dem Ordner Programme ['sh1106.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/98594aedf2d1238a6d3b70266d346a011cbef856/Programme/Lib/sh1106.py) rauskopiert und im Raspberry Pi Pico im Ordner Lib mit dem Namen '**sh1106.py**' gespeichert werde.
+Sollte auf dem Pi Pico die Bibliothek sh1106.py NICHT unter dem **Ordner lib** im Pi zufinden sein, wird diese wie folgt hinzugefügt.
+Zuerst wird die Bibliothek aus dem **Ordner lib** aus dem Ordner Programme ['sh1106.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/98594aedf2d1238a6d3b70266d346a011cbef856/Programme/Lib/sh1106.py) rauskopiert und im Raspberry Pi Pico im Ordner Lib mit dem Namen '**sh1106.py**' gespeichert werde.
 
 
 ## 3.2 Erklärung Syntax der Bibliothek
