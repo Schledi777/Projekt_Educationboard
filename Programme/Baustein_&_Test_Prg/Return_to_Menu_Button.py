@@ -1,3 +1,4 @@
+#Code by Daniel S. & Michael E., Last update march 2024
 from machine import I2C, Pin, reset
 import sys
 button_pin = Pin(9, Pin.IN, Pin.PULL_UP)
