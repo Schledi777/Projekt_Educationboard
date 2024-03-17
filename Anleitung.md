@@ -121,7 +121,12 @@ Zum Anzeigen der Texte, wird wie in Zeile 22 der Befehl: '**display.show()**' ge
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/6f1199ba-b1db-4d52-9fa5-2b1326814d2e)
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/17f0b795-5cdc-475b-8315-25820384f9ba)
 
-Um die Texte dauerhaft zu aktualisieren
+Um die Texte dauerhaft zu aktualisieren, wird eine Dauerschleife mit '**while True:**' definiert Zeile 16. 
+Danach soll nach jedem Durchlauf das Display 'sauber' bzw. Zurückgesetzt werden, dies geschieht durch den Befehl in Zeile 17: '**display.fill(0)**', da ansosten bei Text-Änderungen der Bildschirm 'verschmiert'.
+Mit '**time.sleep(3)**' Zeile 23 wird angegeben nach wie vielen Sekunden, in unserem Fall 3 Sekunden, die Schleife wiederholt wird.
+
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/1286dc94-b7fc-46b2-8463-3288bffd24a6)
+
 
 ## 3.3 Bsp. Implementierung für ein DHT11 Programm 
 
