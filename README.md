@@ -11,5 +11,5 @@
 ## Ordner
 
 - Im Ordner ***Gehause_3D_Druck*** sind alle .stl Dateien gespeichert, einschließlich der Fehlversuche.
-- Im Ordner ***PlatinenPlan*** sind alle 
+- Im Ordner ***PlatinenPlan*** sind alle .f3z Dateien gespeichert, einschließlich der Fehlversuche, alle Fusion Bibliotheken und die Linkliste zu den Datenblättern.
 - Im Ordner ***Programme*** sind alle MicroPython Programme gespeichert, im Ordner ***lib*** die Bibliotheken und im Ordner ***Baustein_&_Test_Prg*** sind alle Code Bausteine und Testprogramme gespeichert. 
