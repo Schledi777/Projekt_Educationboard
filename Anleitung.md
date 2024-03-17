@@ -138,7 +138,7 @@ Im folgenden Bild wird eine EndlosSchleife definiert, die den aktuellen Wert der
 
 - Der Befehl: '***display.text("HTWK Leipzig",20,0)***' Schreibt den Text "HTWK Leipzig" als Titel, beginnend bei den Koordinaten (20, 0) auf dem Bildschirm.
 
-- In Zeile 42 zeigt der Befehl: '***display.text("Temperatur: "+str(temp)+"C",0,28)***' , den Temperaturwert ( der in der Variablen temp gespeichert ist) gefolgt von "C" für Celsius an. Der Text ist an den Koordinaten (0, 28) auf dem Bildschirm positioniert, da ein String verwendet wird muss die 'Abtrennung' der Wörter mit eine '**+**'erfolgen und **nicht** mit einem '**,**'.
+- In Zeile 42 zeigt der Befehl: '***display.text("Temperatur: "+str(temp)+"C",0,28)***' , den Temperaturwert ( der in der Variablen temp gespeichert ist) gefolgt von "C" für Celsius an. Der Text ist an den Koordinaten (0, 28) auf dem Bildschirm positioniert, da ein String verwendet wird muss die 'Abtrennung' der Wörter mit eine '**+**'erfolgen und **nicht** mit einem ' **,** '.
 - In Zeile 43 zeigt der Befehl:'***display.text("Luftfeuchte: "+str(hum)+"%",0,42)***'den Luftfeuchtigkeitswert (der in der Variablen hum gespeichert ist) gefolgt von "%" für Prozent an. Der Text ist an den Koordinaten (0, 42) auf dem Bildschirm positioniert.
 
 - Danach pausiert '***time.sleep(1)***'  die Ausführung des Programms für 1 Sekunde, um eine Verzögerung vor der Aktualisierung des Bildschirms zu erzeugen.
