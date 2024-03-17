@@ -1,4 +1,4 @@
-#sdadasdad
+#Code by Daniel S. & Michael E., last update March 2024
 
 from machine import I2C, Pin
 from sh1106 import SH1106_I2C
