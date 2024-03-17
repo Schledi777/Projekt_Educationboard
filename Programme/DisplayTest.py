@@ -1,3 +1,6 @@
+#Source:https://coxxect.blogspot.com/2022/08/raspberry-pi-picomicropython-exercise.html
+#modified by Daniel S. & Michael E., last update march 2024
+
 from machine import I2C, ADC, Pin
 from sh1106 import SH1106_I2C
 import framebuf
