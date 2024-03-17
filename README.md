@@ -1,4 +1,4 @@
-# ebuctionboard
+# Pi Pico Ebuctionboard
 ## Anleitung.md
 #### 1. Anleitung Menu Steuerung  
 #### 2. Anleitung um eigene Programme ins Menu einzufügen (Bsp DHT11 Programm)
