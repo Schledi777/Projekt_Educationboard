@@ -87,6 +87,7 @@ Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und dan
 
 
 Nachdem wir keine gefräste Platine mehr verwenden, müssen alle Kabel manuell verlegt werden. Nach dem Anlöten der "Grundteile" gemäß der Tabelle (Tab1.: Bauteile_&_Pins) werden die entsprechenden Kabel passend zu den genutzten Pins platziert. Dabei werden die Kabelenden der Sensoren und Aktuatoren mit den Pins des Raspberry Pi Pico verlötet. Um Knotenpunkte zu schaffen, werden Brücken mit Silberdraht oder einfaches Lötzinn verwendet.
+
 Nach jeder Verbindungslötung wurde mit einem Multimeter überprüft, ob es zwischen benachbarten Pins zu Kurzschlüssen kommt und ob es einen Kurzschluss zwischen dem Sensor-/Aktuator-Pin und dem zugehörigen Raspberry-Pin gibt. Dies gewährleistet, dass es keine "losen" Verbindungen gibt.
 
    ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e51d067f-aba4-40ca-add9-d4cc50855d9d)
