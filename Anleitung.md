@@ -52,7 +52,7 @@ Nun den Code vom Programm: [**'Return_to_Menu_Button.py'**](https://github.com/S
 
 In dieser Abbildung ist zu erkennen, dass in Zeile 3 '**Pin**' die Bibliothek '**machine**' importiert wird und in Zeile 7 die Bibliothek '**sys**' hinzugefügt wird. In Zeile 11 wird der Knopf definiert, mit dem wir zum Menü zurückkehren, mit dem Befehl: '**button_pin = Pin(9, Pin.IN, Pin.PULL_UP)**'. Von Zeile 18 bis 32 definieren wir eine Funktion namens '**button_pressed**', die das laufende Programm unterbricht und das Menüprogramm '**main.py**' startet.
 
-Nach dem Kompilieren sollte das Programm erneut getestet werden, und dabei sollten entstandene Fehler korrigiert werden, wie zum Beispiel das Hinzufügen der vergessenen Bibliothek **'sys'**. Wenn alles funktioniert, wird in unserem Fall das Menüprogramm gestartet, wenn der Knopf bzw. Button des Rotary Encoders gedrückt wird.
+Nach dem Kompilieren sollte das Programm erneut getestet werden, und dabei sollten entstandene Fehler korrigiert werden, wie zum Beispiel das Hinzufügen der vergessenen Bibliothek **'sys'**. Wenn alles funktioniert, wird  das Menüprogramm gestartet, wenn der Knopf bzw. Button des Rotary Encoders gedrückt wird.
 
 
 ## 2.3 Programm auf Raspberry Speichern
