@@ -129,5 +129,21 @@ Mit '**time.sleep(3)**' Zeile 23 wird angegeben nach wie vielen Sekunden, in uns
 
 
 ## 3.3 Bsp. Implementierung für ein DHT11 Programm 
+Dieses Beipiel orientiert sich am Programm: ['Temp&Lft.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/65be3c3f6415bf3bf3732bba2f7c09c1fb358676/Programme/Temp%26Lft.py).
+Im folgenden Bild an den RotenPunktMakierungen zuzuerkennen ist, wurden die im Punkt 3.2 genannten Bibliotheken in dieses Porgramm integiert.
 
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/47278c8c-8ac6-4824-bdbd-78810b9a9a60)
 
+Nun müssen die I2C-Eigenschaften des Displays definiert werden und es wird sich erneut an 3.2 orientiert wie an den RotenPunkt Makierungen im folgeneden Bild zuerkennen. 
+
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/4432970f-7975-4f20-a89e-f4c12e3f5a62)
+
+Im folgenden Bild wird eine EndlosSchleife definiert, die den aktuellen Wert der Temperatur und Luftfeuchte ausgibt.
+Dabei löscht der Befehl: '***display.fill(0)***' den Bildschirm und bereitet neue Inhalte vor.
+Der Befehl: '***display.text("HTWK Leipzig",20,0)***' Schreibt den Text "HTWK Leipzig" als Titel, beginnend bei den Koordinaten (20, 0) auf dem Bildschirm.
+In Zeile 42 zeigt der Befehl: '***display.text("Temperatur: "+str(temp)+"C",0,28)***', den Temperaturwert ( der in der Variablen temp gespeichert ist) gefolgt von "C" für Celsius an. Der Text ist an den Koordinaten (0, 28) auf dem Bildschirm positioniert, da ein String verwendet wird muss die 'Abtrennung' der Wörter mit eine '**+**' erfolgen und **nicht** mit einem '**,**'.
+In Zeile 43 zeigt der Befehl:'***display.text("Luftfeuchte: "+str(hum)+"%",0,42)***'den Luftfeuchtigkeitswert (der in der Variablen hum gespeichert ist) gefolgt von "%" für Prozent an. Der Text ist an den Koordinaten (0, 42) auf dem Bildschirm positioniert.
+Danach pausiert '***time.sleep(1)***' die Ausführung des Programms für 1 Sekunde, um eine Verzögerung vor der Aktualisierung des Bildschirms zu erzeugen.
+
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/eb89dd13-17eb-45c1-a97b-e1d4f9dcf81b)
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e0e80df9-71fe-4305-bc10-b21786a1ecb9)
