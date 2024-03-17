@@ -88,18 +88,18 @@ Das EducationBoard verwendet einen **OLED Display I2C SSH1106 128 x 64 Pixel**.
 
 ## 3.1 Bibliothek für OLED hinzufügen
 Sollte auf dem Pi Pico die Bibliothek sh1106.py NICHT unter dem **Ordner lib** im Pi zufinden sein, wird diese wie folgt hinzugefügt.
-Zuerst wird die Bibliothek aus dem **Ordner lib** aus dem Ordner Programme ['sh1106.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/98594aedf2d1238a6d3b70266d346a011cbef856/Programme/Lib/sh1106.py) rauskopiert und im Raspberry Pi Pico im Ordner Lib mit dem Namen '**sh1106.py**' gespeichert werde.
+Zuerst wird die Bibliothek aus dem **Ordner lib** aus dem Ordner Programme ['sh1106.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/98594aedf2d1238a6d3b70266d346a011cbef856/Programme/Lib/sh1106.py) rauskopiert und im Raspberry Pi Pico im Ordner Lib mit dem Namen '**sh1106.py**' gespeichert werden.
 
 
 ## 3.2 Erklärung Syntax der Bibliothek
 Der Beispiel Baustein ['OLED_Test_Baustein.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/d16e9fedaf6b2823e0aaa90fe9d6515f0642ee1b/Programme/Baustein_%26_Test_Prg/OLED_Test_Baustein.py) wird zur Erklärung der Syntax genutzt.
-Um den OLED nutzen zu können, muss man wie in Zeile 3 von der Bibliothek '**machine**' I2C und Pin importieren, in Zeile 4 wird aus der Bibliothek '**sh1106**' SH1106_I2C hinzugefügt und in Zeile 5 wird die Biliothek '**time**' importieren.
+Um den OLED nutzen zu können, muss man wie in Zeile 3 von der Bibliothek '**machine**' I2C und Pin importieren, in Zeile 4 wird aus der Bibliothek '**sh1106**' SH1106_I2C hinzugefügt und in Zeile 5 wird die Biliothek '**time**' importiert.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/ed0f9c36-b3c6-46cc-8d80-4a84391f2662)
 
-Als nächstes sollte aus Gründen der Übersichtlichkeit die Breite (128 Pixel) und Höhe (64 Pixel) als Variablen definiert werden. Dies wird in Zeile 7 für die Breite mit '**WIDTH = 128**' und in Zeile 8 für die Höhe mit '**HEIGHT = 64**' durchgeführt.
+Als nächstes sollte aus Gründen der Übersichtlichkeit die Breite (128 Pixel) und Höhe (64 Pixel) als Variablen definiert werden. Dies wird in Zeile 7 für die Breite mit '**WIDTH = 128**' definiert und in Zeile 8 für die Höhe mit '**HEIGHT = 64**' definiert.
 
-Danach werden die I2C-Eigenschaften wie folgt definiert: Die SCL/SCK- und SDA-Anschlüsse werden mit den entsprechenden Pins verbunden (SDA auf GPIO-Pin 6 und SCK auf GPIO-Pin 7). Diese Pins sind frei wählbar, müssen jedoch I2C-fähig sein und eine UART-Schnittstelle besitzen. Die Frequenz wird auf 400.000 Hz festgelegt. Dies wird mit dem Befehl '**i2c = I2C(0, scl=Pin(5), sda=Pin(4), freq=400000)**' durchgeführt, um alle diese I2C-Eigenschaften zu definieren.
+Danach werden die I2C-Eigenschaften wie folgt definiert: Die SCL/SCK- und SDA-Anschlüsse werden mit den entsprechenden Pins verbunden (SDA auf GPIO-Pin 6 und SCK auf GPIO-Pin 7). Diese Pins sind frei wählbar, müssen jedoch I2C-fähig sein und eine UART-Schnittstelle besitzen. Die Frequenz wird auf 400.000 Hz festgelegt. Dies wird mit dem Befehl '**i2c = I2C(0, scl=Pin(5), sda=Pin(4), freq=400000)**' festgelegt, um alle diese I2C-Eigenschaften zu definieren.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/a4377c25-61cc-4d1a-9a89-de23a9068af8)
 
