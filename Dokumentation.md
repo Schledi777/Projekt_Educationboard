@@ -26,10 +26,10 @@ Nun Link von Source folgen auf den **Raspberry Pi Pico** link klicken, wie in de
 
 Nachdem man auf den Link geklickt hat müsste stand 03.03.2024 eine Datei mit dem Namen: 'RPI_PICO-20240222-v1.22.2.uf2' heruntergeladen worden sein.
 Nun die 'RPI_PICO-20240222-v1.22.2.uf2' - Datei in das Laufwerk '**RPI-RP2**' per drag and dorp reinziehen.
-Wenn die Istallation erfolgreich war sollte nun das Laufwerk '**RPI-RP2**' nicht mehr zusehen sein.
+Wenn die Installation erfolgreich war sollte nun das Laufwerk '**RPI-RP2**' nicht mehr zusehen sein.
 
 
-### 3. Istallation IDE und Verbinden des Pi Pico's mit der IDE
+### 3. Installation IDE und Verbinden des Pi Pico's mit der IDE
 
 
 #### 1. Thonny:
