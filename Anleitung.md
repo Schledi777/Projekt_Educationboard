@@ -92,7 +92,7 @@ Zuerst wird die Bibliothek aus dem Ordner Lib aus dem Ordner Programme ['sh1106.
 
 
 ## 3.2 Erklärung Syntax der Bibliothek
-Der BeispielBaustein ['OLED_Test_Baustein.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/d16e9fedaf6b2823e0aaa90fe9d6515f0642ee1b/Programme/Baustein_%26_Test_Prg/OLED_Test_Baustein.py) wird zur Erklärung der Syntax genutzt.
+Der Beispiel Baustein ['OLED_Test_Baustein.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/d16e9fedaf6b2823e0aaa90fe9d6515f0642ee1b/Programme/Baustein_%26_Test_Prg/OLED_Test_Baustein.py) wird zur Erklärung der Syntax genutzt.
 Um den OLED nutzen zu können, muss wie Zeile 3 von der Bibliothek '**machine**' I2C und Pin importiert werden, in Zeile 4 wird aus der Bibliothek '**sh1106**' SH1106_I2C hinzugefügt und in Zeile 5 wird noch die Biliothek '**time**' hinzugefügt.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/ed0f9c36-b3c6-46cc-8d80-4a84391f2662)
