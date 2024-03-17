@@ -38,8 +38,7 @@ Das wichtigste Zuerst das Menu Programm: [main.py](https://github.com/Schledi777
 
 ## 2.1 Programm Testen
 
-Erstmal das Programm im Compailer compilieren und alle Knöpfe bzw. Sensoren/Aktuatoren auf funktionalität Testen. 
-In unserem Fall hat das Programm für den DHT11 Sensor funktioniert und wir bekommen eine Ausgabe auf dem OLED.
+Zuerst müssen Sie das Programm im Compiler kompilieren und alle Knöpfe sowie Sensoren/Aktuatoren auf ihre Funktionalität überprüfen. In unserem Fall hat das Programm für den DHT11-Sensor funktioniert, und wir erhalten eine Ausgabe auf dem OLED-Display.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e0e80df9-71fe-4305-bc10-b21786a1ecb9)
 
@@ -51,12 +50,9 @@ Nun den Code vom Programm: [**'Return_to_Menu_Button.py'**](https://github.com/S
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e09c8307-8410-4275-b465-ed2b0e1fe973)
 
 
-Wie in dieser Abbildung zuerkennen wird in Zeile 3 **Pin** aus der Bibliothek **machine** und in Zeile 7 die Biliothek **sys** hinzugefügt.
-In Zeile 11 wird der Knopf definiert mit dem wir zurück in Menu kommen mit dem Befehl: 
-**'button_pin = Pin(9, Pin.IN, Pin.PULL_UP)'**. Von Zeile 18 bis 32 kommt definiern wir eine funktion names **button_pressed** die das laufende Programm unterbricht und das Menu Programm **'main.py'** startet.
+In dieser Abbildung ist zu erkennen, dass in Zeile 3 **Pin** die Bibliothek **machine** importiert wird und in Zeile 7 die Bibliothek **'sys'** hinzugefügt wird. In Zeile 11 wird der Knopf definiert, mit dem wir zum Menü zurückkehren, mit dem Befehl: **'button_pin = Pin(9, Pin.IN, Pin.PULL_UP)'**. Von Zeile 18 bis 32 definieren wir eine Funktion namens **button_pressed**, die das laufende Programm unterbricht und das Menüprogramm **'main.py'** startet.
 
-Nach dem Compalieren sollte das Programm erneut getestet werden und entstande Fehler korrigieren, wie z.Bsp.: die vergessene Bibliothek sys hinzuzufügen. 
-Wenn es funktioniert wird in unserem Fall das Menu Programm gestartet, wenn man den Knopf bzw. Button des Rotery Encoders eindrückt.
+Nach dem Kompilieren sollte das Programm erneut getestet werden, und dabei sollten entstandene Fehler korrigiert werden, wie zum Beispiel das Hinzufügen der vergessenen Bibliothek **'sys'**. Wenn alles funktioniert, wird in unserem Fall das Menüprogramm gestartet, wenn der Knopf bzw. Button des Rotary Encoders gedrückt wird.
 
 
 ## 2.3 Programm auf Raspberry Speichern
