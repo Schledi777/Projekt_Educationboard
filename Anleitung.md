@@ -97,8 +97,31 @@ Zuerst wird die Bibliothek aus dem Ordner Lib aus dem Ordner Programme ['sh1106.
 
 
 ## 3.2 Erklärung Syntax der Bibliothek
-Der BeispielBaustein []
+Der BeispielBaustein ['OLED_Test_Baustein.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/d16e9fedaf6b2823e0aaa90fe9d6515f0642ee1b/Programme/Baustein_%26_Test_Prg/OLED_Test_Baustein.py) wird zur Erklärung der Syntax genutzt.
+Um den OLED nutzen zu können, muss wie Zeile 3 von der Bibliothek '**machine**' I2C und Pin importiert werden, in Zeile 4 wird aus der Bibliothek '**sh1106**' SH1106_I2C hinzugefügt und in Zeile 5 wird noch die Biliothek '**time**' hinzugefügt.
 
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/ed0f9c36-b3c6-46cc-8d80-4a84391f2662)
+
+Als nächstes sollte übersichts Halber die Breite (128 Pixel) und Höhe (64 Pixel) als Variable definiert werden, dies wird in Zeile 7 für die Breite mit '**WIDTH = 128**' und in Zeile 8 die Höhe als '**HEIGHT = 64**' definiert.
+Danach definieren werden die I2C-Eigenschaften wiefolgt defniert: die scl/sck- und sda-Anschlüsse werden mit den jeweiligen Pins belegt (sda auf GPin 6 und sck auf GPin 7), diese Pins sind  freiwählbar müssen aber scl/sda und UART fähig sein. 
+Die Frequenz soll dabei 400000Hz betragen und mit dem Befehl: '**i2c = I2C(0, scl = Pin(5), sda = Pin(4), freq=400000)**' werden all diese I2C-Eigenschaften definiert.
+
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/a4377c25-61cc-4d1a-9a89-de23a9068af8)
+
+Der Befehl in Zeile 12: '**display = SH1106_I2C(WIDTH, HEIGHT, i2c)**' erstellt ein Display-Objekt, das die angegebene Breite und Höhe hat und über die angegebene I2C-Verbindung kommuniziert.
+Um die Display Anzeige um 180° zu drehen wird der Befehl aus Zeile 14 '**display.rotate(True)**' verwendet, wenn diese Funktion nicht gebraucht wird '*True*' durch '*False*' ersetzten.
+
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/bf9d51a6-ee5c-4a3f-b7a6-a1b0a0ffd693)
+
+
+Texte können mit dem Befehl '**display.text("*BeispielText*",x,y)**' hinzugefügt werden, x gibt an um wie viel Pixel die Textausgabe nach rechts verschoben wird und y um wie viele Pixel nach unten.
+In diesem Beispiel haben wir 4 verschiede Texte(HTWK, TEST, TEST2, TEST3) mit verschiedenen Zeilen und Spalten angaben. 
+Zum Anzeigen der Texte, wird wie in Zeile 22 der Befehl: '**display.show()**' genutzt. 
+
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/6f1199ba-b1db-4d52-9fa5-2b1326814d2e)
+![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/17f0b795-5cdc-475b-8315-25820384f9ba)
+
+Um die Texte dauerhaft zu aktualisieren
 
 ## 3.3 Bsp. Implementierung für ein DHT11 Programm 
 
