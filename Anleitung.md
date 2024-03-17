@@ -50,7 +50,7 @@ Nun den Code vom Programm: [**'Return_to_Menu_Button.py'**](https://github.com/S
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e09c8307-8410-4275-b465-ed2b0e1fe973)
 
 
-In dieser Abbildung ist zu erkennen, dass in Zeile 3 **'Pin'** die Bibliothek **'machine'** importiert wird und in Zeile 7 die Bibliothek **'sys'** hinzugefügt wird. In Zeile 11 wird der Knopf definiert, mit dem wir zum Menü zurückkehren, mit dem Befehl: **'button_pin = Pin(9, Pin.IN, Pin.PULL_UP)'**. Von Zeile 18 bis 32 definieren wir eine Funktion namens **'button_pressed'**, die das laufende Programm unterbricht und das Menüprogramm **'main.py'** startet.
+In dieser Abbildung ist zu erkennen, dass in Zeile 3 '**Pin**' die Bibliothek '**machine**' importiert wird und in Zeile 7 die Bibliothek '**sys**' hinzugefügt wird. In Zeile 11 wird der Knopf definiert, mit dem wir zum Menü zurückkehren, mit dem Befehl: '**button_pin = Pin(9, Pin.IN, Pin.PULL_UP)**'. Von Zeile 18 bis 32 definieren wir eine Funktion namens '**button_pressed**', die das laufende Programm unterbricht und das Menüprogramm '**main.py**' startet.
 
 Nach dem Kompilieren sollte das Programm erneut getestet werden, und dabei sollten entstandene Fehler korrigiert werden, wie zum Beispiel das Hinzufügen der vergessenen Bibliothek **'sys'**. Wenn alles funktioniert, wird in unserem Fall das Menüprogramm gestartet, wenn der Knopf bzw. Button des Rotary Encoders gedrückt wird.
 
@@ -58,7 +58,7 @@ Nach dem Kompilieren sollte das Programm erneut getestet werden, und dabei sollt
 ## 2.3 Programm auf Raspberry Speichern
 Wie in der [Dokumentation.md](https://github.com/Schledi777/Projekt_Educationboard/blob/0e447e8d7ff2c907a0dd9716c9d91fd424211b08/Dokumentation.md) erwähnt werden die Schritte 7. & 8. getätigt:
 
-1. Um Programme auf den Pi zu speichern, sollten Sie das aktuelle Programm geöffnet haben. Dann gehen Sie zur Registerkarte **'Datei'** und wählen **'Speichern unter...'** aus. Es öffnet sich ein weiteres Menü, in dem Sie zwischen Computer und Raspberry Pi wählen können. Klicken Sie auf **'Raspberry Pi Pico'**, und es öffnet sich das Laufwerk des Pico's. Dort können Sie dann das Programm speichern.
+1. Um Programme auf den Pi zu speichern, sollten Sie das aktuelle Programm geöffnet haben. Dann gehen Sie zur Registerkarte '**Datei**' und wählen '**Speichern unter...**' aus. Es öffnet sich ein weiteres Menü, in dem Sie zwischen Computer und Raspberry Pi wählen können. Klicken Sie auf '**Raspberry Pi Pico**', und es öffnet sich das Laufwerk des Pico's. Dort können Sie dann das Programm speichern.
 
    ![image](https://github.com/Schledi777/ebunoard/assets/130638123/c90597f6-1f10-41f3-83e9-54ec1b6c77ba)
    ![image](https://github.com/Schledi777/ebunoard/assets/130638123/f4fce567-db69-4507-a5c5-a597cba172cb)
@@ -88,37 +88,37 @@ Das EducationBoard verwendet einen **OLED Display I2C SSH1106 128 x 64 Pixel**.
 
 ## 3.1 Bibliothek für OLED hinzufügen
 Sollte auf dem Pi Pico die Bibliothek sh1106.py NICHT unter dem Ordner lib im Pi zufinden sein, wird diese wie folgt hinzugefügt.
-Zuerst wird die Bibliothek aus dem Ordner Lib aus dem Ordner Programme ['sh1106.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/98594aedf2d1238a6d3b70266d346a011cbef856/Programme/Lib/sh1106.py) rauskopiert und im Raspberry Pi Pico im Ordner Lib mit dem Namen **'sh1106.py'** gespeichert werde.
+Zuerst wird die Bibliothek aus dem Ordner Lib aus dem Ordner Programme ['sh1106.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/98594aedf2d1238a6d3b70266d346a011cbef856/Programme/Lib/sh1106.py) rauskopiert und im Raspberry Pi Pico im Ordner Lib mit dem Namen '**sh1106.py**' gespeichert werde.
 
 
 ## 3.2 Erklärung Syntax der Bibliothek
 Der Beispiel Baustein ['OLED_Test_Baustein.py'](https://github.com/Schledi777/Projekt_Educationboard/blob/d16e9fedaf6b2823e0aaa90fe9d6515f0642ee1b/Programme/Baustein_%26_Test_Prg/OLED_Test_Baustein.py) wird zur Erklärung der Syntax genutzt.
-Um den OLED nutzen zu können, muss man wie in Zeile 3 von der Bibliothek **'machine'** I2C und Pin importieren, in Zeile 4 wird aus der Bibliothek **'sh1106'** SH1106_I2C hinzugefügt und in Zeile 5 wird die Biliothek **'time'**.
+Um den OLED nutzen zu können, muss man wie in Zeile 3 von der Bibliothek '**machine**' I2C und Pin importieren, in Zeile 4 wird aus der Bibliothek '**sh1106**' SH1106_I2C hinzugefügt und in Zeile 5 wird die Biliothek '**time**'.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/ed0f9c36-b3c6-46cc-8d80-4a84391f2662)
 
-Als nächstes sollte aus Gründen der Übersichtlichkeit die Breite (128 Pixel) und Höhe (64 Pixel) als Variablen definiert werden. Dies wird in Zeile 7 für die Breite mit **'WIDTH = 128'** und in Zeile 8 für die Höhe mit **'HEIGHT = 64'** durchgeführt.
+Als nächstes sollte aus Gründen der Übersichtlichkeit die Breite (128 Pixel) und Höhe (64 Pixel) als Variablen definiert werden. Dies wird in Zeile 7 für die Breite mit '**WIDTH = 128**' und in Zeile 8 für die Höhe mit '**HEIGHT = 64**' durchgeführt.
 
-Danach werden die I2C-Eigenschaften wie folgt definiert: Die SCL/SCK- und SDA-Anschlüsse werden mit den entsprechenden Pins verbunden (SDA auf GPIO-Pin 6 und SCK auf GPIO-Pin 7). Diese Pins sind frei wählbar, müssen jedoch I2C-fähig sein und eine UART-Schnittstelle besitzen. Die Frequenz wird auf 400.000 Hz festgelegt. Dies wird mit dem Befehl **'i2c = I2C(0, scl=Pin(5), sda=Pin(4), freq=400000)'** durchgeführt, um alle diese I2C-Eigenschaften zu definieren.
+Danach werden die I2C-Eigenschaften wie folgt definiert: Die SCL/SCK- und SDA-Anschlüsse werden mit den entsprechenden Pins verbunden (SDA auf GPIO-Pin 6 und SCK auf GPIO-Pin 7). Diese Pins sind frei wählbar, müssen jedoch I2C-fähig sein und eine UART-Schnittstelle besitzen. Die Frequenz wird auf 400.000 Hz festgelegt. Dies wird mit dem Befehl '**i2c = I2C(0, scl=Pin(5), sda=Pin(4), freq=400000)**' durchgeführt, um alle diese I2C-Eigenschaften zu definieren.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/a4377c25-61cc-4d1a-9a89-de23a9068af8)
 
-Der Befehl in Zeile 12: **'display = SH1106_I2C(WIDTH, HEIGHT, i2c)'** erstellt ein Display-Objekt, dass die angegebene Breite und Höhe hat und über die angegebene I2C-Verbindung kommuniziert.
-Um die Display Anzeige um 180° zu drehen wird der Befehl aus Zeile 14 **'display.rotate(True)'** verwendet, wenn diese Funktion nicht gebraucht wird '*True*' durch '*False*' ersetzten.
+Der Befehl in Zeile 12: '**display = SH1106_I2C(WIDTH, HEIGHT, i2c)**' erstellt ein Display-Objekt, dass die angegebene Breite und Höhe hat und über die angegebene I2C-Verbindung kommuniziert.
+Um die Display Anzeige um 180° zu drehen wird der Befehl aus Zeile 14 '**display.rotate(True)**' verwendet, wenn diese Funktion nicht gebraucht wird '*True*' durch '*False*' ersetzten.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/bf9d51a6-ee5c-4a3f-b7a6-a1b0a0ffd693)
 
 
-Texte können mit dem Befehl **'display.text("*BeispielText*",x,y)'** hinzugefügt werden, x gibt an um wie viel Pixel die Textausgabe nach rechts verschoben wird und y um wie viele Pixel nach unten.
+Texte können mit dem Befehl '**display.text("*BeispielText*",x,y)**' hinzugefügt werden, x gibt an um wie viel Pixel die Textausgabe nach rechts verschoben wird und y um wie viele Pixel nach unten.
 In diesem Beispiel haben wir 4 verschiede Texte(HTWK, TEST, TEST2, TEST3) mit verschiedenen Zeilen und Spalten anzeigen lassen. 
-Zum Anzeigen der Texte, wird wie in Zeile 22 der Befehl: **'display.show()'** genutzt. 
+Zum Anzeigen der Texte, wird wie in Zeile 22 der Befehl: '**display.show()**' genutzt. 
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/6f1199ba-b1db-4d52-9fa5-2b1326814d2e)
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/17f0b795-5cdc-475b-8315-25820384f9ba)
 
-Um die Texte dauerhaft zu aktualisieren, wird eine Dauerschleife mit **'while True:'** definiert Zeile 16. 
-Danach soll nach jedem Durchlauf das Display 'sauber' bzw. Zurückgesetzt werden, dies geschieht durch den Befehl in Zeile 17: **'display.fill(0)'**, da ansosten bei Text-Änderungen der Bildschirm 'verschmiert'.
-Mit **'time.sleep(3)'** Zeile 23 wird angegeben nach wie vielen Sekunden, in unserem Fall 3 Sekunden, die Schleife wiederholt wird.
+Um die Texte dauerhaft zu aktualisieren, wird eine Dauerschleife mit '**while True:**' definiert Zeile 16. 
+Danach soll nach jedem Durchlauf das Display 'sauber' bzw. Zurückgesetzt werden, dies geschieht durch den Befehl in Zeile 17: '**display.fill(0)**', da ansosten bei Text-Änderungen der Bildschirm 'verschmiert'.
+Mit '**time.sleep(3)**' Zeile 23 wird angegeben nach wie vielen Sekunden, in unserem Fall 3 Sekunden, die Schleife wiederholt wird.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/1286dc94-b7fc-46b2-8463-3288bffd24a6)
 
@@ -134,16 +134,16 @@ Nun müssen die I2C-Eigenschaften des Displays definiert werden und es wird sich
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/4432970f-7975-4f20-a89e-f4c12e3f5a62)
 
 Im folgenden Bild wird eine EndlosSchleife definiert, die den aktuellen Wert der Temperatur und Luftfeuchte ausgibt.
-- Dabei löscht der Befehl: ***'display.fill(0)'*** den Bildschirm und bereitet neue Inhalte vor.
+- Dabei löscht der Befehl: '***display.fill(0)***' den Bildschirm und bereitet neue Inhalte vor.
 
-- Der Befehl: ***'display.text("HTWK Leipzig",20,0)'*** Schreibt den Text "HTWK Leipzig" als Titel, beginnend bei den Koordinaten (20, 0) auf dem Bildschirm.
+- Der Befehl: '***display.text("HTWK Leipzig",20,0)***' Schreibt den Text "HTWK Leipzig" als Titel, beginnend bei den Koordinaten (20, 0) auf dem Bildschirm.
 
-- In Zeile 42 zeigt der Befehl: ***'display.text("Temperatur: "+str(temp)+"C",0,28)'***, den Temperaturwert ( der in der Variablen temp gespeichert ist) gefolgt von "C" für Celsius an. Der Text ist an den Koordinaten (0, 28) auf dem Bildschirm positioniert, da ein String verwendet wird muss die 'Abtrennung' der Wörter mit eine **'+'** erfolgen und **nicht** mit einem **','**.
-- In Zeile 43 zeigt der Befehl:***'display.text("Luftfeuchte: "+str(hum)+"%",0,42)'***den Luftfeuchtigkeitswert (der in der Variablen hum gespeichert ist) gefolgt von "%" für Prozent an. Der Text ist an den Koordinaten (0, 42) auf dem Bildschirm positioniert.
+- In Zeile 42 zeigt der Befehl: '***display.text("Temperatur: "+str(temp)+"C",0,28)***' , den Temperaturwert ( der in der Variablen temp gespeichert ist) gefolgt von "C" für Celsius an. Der Text ist an den Koordinaten (0, 28) auf dem Bildschirm positioniert, da ein String verwendet wird muss die 'Abtrennung' der Wörter mit eine '**+**'erfolgen und **nicht** mit einem '**,**'.
+- In Zeile 43 zeigt der Befehl:'***display.text("Luftfeuchte: "+str(hum)+"%",0,42)***'den Luftfeuchtigkeitswert (der in der Variablen hum gespeichert ist) gefolgt von "%" für Prozent an. Der Text ist an den Koordinaten (0, 42) auf dem Bildschirm positioniert.
 
-- Danach pausiert ***'time.sleep(1)'*** die Ausführung des Programms für 1 Sekunde, um eine Verzögerung vor der Aktualisierung des Bildschirms zu erzeugen.
+- Danach pausiert '***time.sleep(1)***'  die Ausführung des Programms für 1 Sekunde, um eine Verzögerung vor der Aktualisierung des Bildschirms zu erzeugen.
 
-- ***'display.show()'*** zeigt den Text auf dem Display an.
+- '***display.show()***'  zeigt den Text auf dem Display an.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/eb89dd13-17eb-45c1-a97b-e1d4f9dcf81b)
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e0e80df9-71fe-4305-bc10-b21786a1ecb9)
