@@ -73,8 +73,7 @@ Verbinden der IDE mit Pi Pico:
 
 ## **2.Montage**
 
-Wegen der im Beleg erläuterten Probleme mit der Platine, haben wir uns entschieden auf Lochrasterplatinen zu setzen. Hierbei haben wir dann ein neues Gehäuse entworfen und zwei einseitige Lochrasterplatinen mit den Maßen 160mm Länge und 100mm Breite, mit einem Rastermaß von 2,54 mm.
-Dabei werden diese zwei Lochrasterplatinen an der 160mm LängstSeite zusammengefügt, weil dies die stabielste, flächentechnisch minimalste und ästetischste Anordnung der Platinen ist ohne nochmal diese zu bearbeiten.
+Aufgrund der im Beleg beschriebenen Probleme mit der Platine haben wir beschlossen, auf Lochrasterplatinen umzusteigen. Dafür haben wir ein neues Gehäuse entworfen und zwei einseitige Lochrasterplatinen mit den Abmessungen von 160 mm Länge und 100 mm Breite sowie einem Rastermaß von 2,54 mm ausgewählt. Diese beiden Lochrasterplatinen werden entlang der 160 mm langen Seite miteinander verbunden, da dies die stabilste, flächenmäßig effizienteste und ästhetischste Anordnung ist, ohne dass weitere Bearbeitungen erforderlich sind.
 
 #### 1. Schritt Montage: Grundbauteile anlöten 
 
@@ -86,9 +85,9 @@ Zuerst wurden alle 2.54mm geraden einreihigen Buchsenleisten an gelötet und dan
 
 #### 2. Schritt Motage: Kabelverlegen und Anlöten
 
-Da wir nun keine gefräßte Platine mehr haben müssen alle Kabel per Hand verlegt verlegt werden. Nun werden nachdem Anlöten der "GrundTeile", die GrundTeile nach folgender Tabelle (Tab1.:Bauteile_&_Pins) Kabel passend zu den genutzen Pins gelegt.
-Hierbei werden die Kabel und die Pinenden der Sensoren und Akturoren mit den Pins des Raspberry Pi Pico verlötet, dabei wurden Brücken mit Silberdraht gelötet oder einfachen Lötzinn um Knotenpunkte zu erzeugen. 
-Nach jeder Verlötung der Kabelverbindungen wurde mit einem Multimeter kontrolliert, ob es zu Kurzschlüssen zwischen 2 benachbarten Pins kommt und ob es einen Kurzschluss von dem Sensor/Aktor Pin und dem zugehöhrigen Raspberry Pin gab, um sicherzustellen das es keine "losen" Verbinungen gibt.
+Nachdem wir keine gefräste Platine mehr verwenden, müssen alle Kabel manuell verlegt werden. Nach dem Anlöten der "Grundteile" gemäß der Tabelle (Tab1.: Bauteile_&_Pins) werden die entsprechenden Kabel passend zu den genutzten Pins platziert. Dabei werden die Kabelenden der Sensoren und Aktuatoren mit den Pins des Raspberry Pi Pico verlötet. Um Knotenpunkte zu schaffen, werden Brücken mit Silberdraht oder einfaches Lötzinn verwendet.
+
+Nach jeder Verbindungslötung wurde mit einem Multimeter überprüft, ob es zwischen benachbarten Pins zu Kurzschlüssen kommt und ob es einen Kurzschluss zwischen dem Sensor-/Aktuator-Pin und dem zugehörigen Raspberry-Pin gibt. Dies gewährleistet, dass es keine "losen" Verbindungen gibt.
 
    ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/e51d067f-aba4-40ca-add9-d4cc50855d9d)
 
