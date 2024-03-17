@@ -2,7 +2,6 @@
 ## Gliederung:
 #### 1. Pico mit Computer Verbinden
 #### 2. Montage
-#### 3. Installation von Mircro Python
 
 
 
