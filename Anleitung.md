@@ -13,8 +13,7 @@
 Der Raspberry Pi Pico wird an eine Stromquelle mit einem Micro-USB Kabel verbunden, dass kann ein PowerBank sein oder auch ein Pc Outlet                  
 
 ## 1.2 Mit dem Drehpotentiometer Programm auswählen
-Durch drehen des Drehpotentiometers die Liste bzw. das Menu zu navigieren, um die Auswahl zu ändern.
-Verwenden des Rotary Encoders, um durch die Liste zu navigieren. Drehungen im Uhrzeigersinn um nach unten zu navigieren und gegen den Uhrzeiger um die Auswahl nach oben zu ändern.
+Um die Auswahl zu ändern, verwenden Sie bitte das Drehpotentiometer, um durch die Liste oder das Menü zu navigieren. Der Rotary Encoder ermöglicht es Ihnen, durch die Liste zu blättern. Drehen Sie ihn im Uhrzeigersinn, um nach unten zu navigieren, und gegen den Uhrzeigersinn, um die Auswahl nach oben zu ändern.
 
 ![image](https://github.com/Schledi777/Projekt_Educationboard/assets/130638123/61042c13-0abd-4a33-968d-5a10c7bdb27e)
 
@@ -27,7 +26,7 @@ Durch das eindrücken des Rotery Encoders, wird das ausgewählte PythonProgramm 
 
 
 ## 1.4 Verlassen des PythonProgramms
-Um das laufende Programm zu Verlassen muss der Griff des Rotery Encoder wieder eingedrückt werden, wie für's starten
+Um das laufende Programm zu verlassen, müssen Sie den Griff des Rotary Encoders erneut drücken, wie beim Starten.
 
 
 ---
