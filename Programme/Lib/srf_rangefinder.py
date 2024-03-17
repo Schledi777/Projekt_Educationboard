@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#SOURCE: https://github.com/martin-c/micro-python-intro/blob/master/srf_rangefinder.py
 """
 A utility library for interfacing with the SRF-08 and SRF-10 ultrasonic
 rangefinders.
