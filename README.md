@@ -12,4 +12,4 @@
 
 - Im Ordner ***Gehause_3D_Druck*** sind alle .stl Dateien gespeichert, einschließlich der Fehlversuche.
 - Im Ordner ***PlatinenPlan*** sind alle 
-- Im Ordner ***Programme*** sind alle MicroPython Programme gespeichert, im Ordner ***lib*** die Bibliotheken und im Ordner ***Baustein_&_Tetst_Prg*** sind alle Code Bausteine und Testprogramme gespeichert. 
+- Im Ordner ***Programme*** sind alle MicroPython Programme gespeichert, im Ordner ***lib*** die Bibliotheken und im Ordner ***Baustein_&_Test_Prg*** sind alle Code Bausteine und Testprogramme gespeichert. 
