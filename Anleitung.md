@@ -97,7 +97,7 @@ Zuerst wird die Bibliothek aus dem Ordner Lib aus dem Ordner Programme ['sh1106.
 
 
 ## 3.2 Erklärung Syntax der Bibliothek
-
+Der BeispielBaustein []
 
 
 ## 3.3 Bsp. Implementierung für ein DHT11 Programm 
