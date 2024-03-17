@@ -2,7 +2,7 @@
 ## Gliederung:
 #### 1. Pico mit Computer Verbinden
 #### 2. Installation von Mircro Python
-#### 3. Istallation IDE und Verbinden des Pi Pico's mit der IDE
+#### 3. Installation IDE und Verbinden des Pi Pico's mit der IDE
 
 
 
